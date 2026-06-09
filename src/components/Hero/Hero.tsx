@@ -1,17 +1,17 @@
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { FiChevronDown } from 'react-icons/fi'
+import { motion, useScroll, useTransform } from "framer-motion";
+import { FiChevronDown } from "react-icons/fi";
+import { Images } from "../../assets";
 
-const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=2000&q=80'
+const HERO_IMAGE = Images.Banner;
 
 export default function Hero() {
-  const { scrollY } = useScroll()
+  const { scrollY } = useScroll();
   // Parallax: background drifts slower than the scroll.
-  const y = useTransform(scrollY, [0, 600], [0, 160])
-  const overlayOpacity = useTransform(scrollY, [0, 500], [0.55, 0.85])
+  const y = useTransform(scrollY, [0, 600], [0, 160]);
+  const overlayOpacity = useTransform(scrollY, [0, 500], [0.55, 0.85]);
 
   const scrollTo = (id: string) =>
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <section
@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="mb-4 text-sm font-medium uppercase tracking-[0.4em] text-gold"
         >
-          Kỷ Niệm Vàng · 1976 — 2026
+          1976 — 2026
         </motion.p>
 
         <motion.h1
@@ -78,10 +78,13 @@ export default function Hero() {
           transition={{ delay: 1.2, duration: 0.8 }}
           className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
         >
-          <button onClick={() => scrollTo('journey')} className="btn-gold">
+          <button onClick={() => scrollTo("journey")} className="btn-gold">
             Khám Phá Hành Trình
           </button>
-          <button onClick={() => scrollTo('celebration')} className="btn-outline">
+          <button
+            onClick={() => scrollTo("celebration")}
+            className="btn-outline"
+          >
             Lễ Kỷ Niệm 50 Năm
           </button>
         </motion.div>
@@ -89,7 +92,7 @@ export default function Hero() {
 
       {/* Scroll cue */}
       <motion.button
-        onClick={() => scrollTo('journey')}
+        onClick={() => scrollTo("journey")}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6 }}
@@ -99,5 +102,5 @@ export default function Hero() {
         <FiChevronDown size={32} className="animate-float" />
       </motion.button>
     </section>
-  )
+  );
 }

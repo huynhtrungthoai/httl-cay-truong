@@ -1,17 +1,18 @@
-import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi'
-import { FaFacebookF, FaYoutube } from 'react-icons/fa'
+import { FiMapPin, FiMail, FiPhone } from "react-icons/fi";
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { Images } from "../../assets";
 
 const quickLinks = [
-  { id: 'journey', label: 'Hành Trình' },
-  { id: 'timeline', label: 'Dòng Thời Gian' },
-  { id: 'leaders', label: 'Mục Sư' },
-  { id: 'gallery', label: 'Hình Ảnh' },
-  { id: 'celebration', label: 'Lễ Kỷ Niệm' },
-]
+  { id: "journey", label: "Hành Trình" },
+  { id: "timeline", label: "Dòng Thời Gian" },
+  { id: "leaders", label: "Mục Sư" },
+  { id: "gallery", label: "Hình Ảnh" },
+  { id: "celebration", label: "Lễ Kỷ Niệm" },
+];
 
 export default function Footer() {
   const scrollTo = (id: string) =>
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return (
     <footer className="bg-brown-dark text-ivory">
@@ -20,9 +21,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-4 flex items-center gap-3">
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-gold-gradient font-display text-xl font-bold text-brown-dark">
+              <img src={Images.Logo} loading="lazy" className="h-7 w-12" />
+              {/* <span className="flex h-12 w-12 items-center justify-center rounded-full bg-gold-gradient font-display text-xl font-bold text-brown-dark">
                 50
-              </span>
+              </span> */}
               <div>
                 <p className="font-display text-lg font-semibold">
                   Chi Hội Cây Trường
@@ -65,15 +67,15 @@ export default function Footer() {
             <ul className="space-y-3 text-ivory/70">
               <li className="flex items-center gap-3">
                 <FiMapPin className="shrink-0 text-gold" />
-                Cây Trường, Bình Dương
+                Ấp Ông Chài, Trừ Văn Thố, Hồ Chí Minh
               </li>
               <li className="flex items-center gap-3">
                 <FiPhone className="shrink-0 text-gold" />
-                (+84) 000 000 000
+                (+84) 00000000
               </li>
               <li className="flex items-center gap-3">
                 <FiMail className="shrink-0 text-gold" />
-                lienhe@chihoicaytruong.vn
+                httlcaytruong@gmail.com
               </li>
             </ul>
             <div className="mt-5 flex gap-3">
@@ -97,11 +99,11 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-gold/15 pt-6 text-center text-sm text-ivory/50">
           <p>
-            © {new Date().getFullYear()} Chi Hội Cây Trường. Kỷ niệm 50 năm thành
-            lập — Soli Deo Gloria.
+            © {new Date().getFullYear()} Chi Hội Cây Trường. Kỷ niệm 50 năm
+            thành lập.
           </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
