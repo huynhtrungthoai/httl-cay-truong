@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import SectionHeading from '../SectionHeading'
-import { leaders } from '../../data/leaders'
+import leaders from '../../data/pastors.json'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
 
 export default function Leaders() {
@@ -27,11 +27,17 @@ export default function Leaders() {
               className="group relative overflow-hidden rounded-2xl bg-white shadow-elegant"
             >
               <div className="relative h-72 overflow-hidden">
+                {leader.portrait !== 'N/A' ? (
                 <img
                   src={leader.portrait}
                   alt={`Chân dung ${leader.name}`}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                 />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center bg-brown/10 text-brown-light">
+                  Chưa có hình
+                </div>
+              )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brown-dark/90 via-brown-dark/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                   <p className="text-xs font-semibold uppercase tracking-widest text-gold-light">
