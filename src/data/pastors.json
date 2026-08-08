@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Truyền đạo Phan Quang Vũ",
+    "role": "Chủ tọa đầu tiên",
+    "period": "12/1976 – 7/1978",
+    "bio": "Được Địa hạt Đông Nam Bộ bổ nhiệm làm Chủ tọa đầu tiên của Hội thánh Cây Trường khi bắt đầu chương trình đưa dân đi lập nghiệp vùng kinh tế mới.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 2,
+    "name": "Mục sư Nguyễn Hoàng Oanh",
+    "role": "Chủ tọa",
+    "period": "Từ 7/1978",
+    "bio": "Tiếp nhận vai trò Chủ tọa sau khi Truyền đạo Phan Quang Vũ về lại TP. HCM. Trong giai đoạn khó khăn, bà mời Truyền đạo Nguyễn Ngọc Thanh đến giảng thay khi vắng mặt vào năm 1982 và ủy quyền cho Truyền đạo Đỗ Trung Tín phụ trách linh vụ từ năm 1989 đến tháng 10/1993.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 3,
+    "name": "Truyền đạo Đỗ Trung Tín",
+    "role": "Phụ trách linh vụ",
+    "period": "1989 – 10/1993",
+    "bio": "Được Mục sư Nguyễn Hoàng Oanh ủy quyền phụ trách linh vụ tại Hội thánh Cây Trường từ năm 1989 cho đến tháng 10/1993.",
+    "portrait": "/images/leaders/TdDoTrungTin.webp"
+  },
+  {
+    "id": 4,
+    "name": "Mục sư Nguyễn Ngọc Thanh",
+    "role": "Đặc trách / Quản nhiệm",
+    "period": "10/1993 – 2012",
+    "bio": "Từ tháng 10/1993, ông được Địa hạt Đông Nam Bộ chấp thuận đặc trách Chi Hội Cây Trường theo đề nghị của Mục sư Nguyễn Hoàng Oanh. Đến tháng 10/2005, ông chính thức được Tổng Liên Hội bổ nhiệm làm Quản nhiệm Chi Hội.",
+    "portrait": "/images/leaders/ms-nguyen-ngoc-thanh.webp"
+  },
+  {
+    "id": 5,
+    "name": "Mục sư Nguyễn Văn Lân",
+    "role": "Kiêm nhiệm",
+    "period": "2004",
+    "bio": "Trong quá trình xây dựng nhà thờ gặp khó khăn, Tổng Liên Hội đã chỉ định ông tạm kiêm nhiệm lo mục vụ tại Chi Hội Cây Trường.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 6,
+    "name": "Truyền đạo Bùi Minh Quyền",
+    "role": "Quản nhiệm",
+    "period": "Từ 26/4/2012 đến nay",
+    "bio": "Được bổ nhiệm làm Quản nhiệm Hội thánh thông qua lễ bổ nhiệm do Mục sư Điểu Huynh chủ tọa.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 7,
+    "name": "MsNc Nguyễn A-Bên",
+    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng",
+    "period": "Bổ nhiệm chính thức năm 2011",
+    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 8,
+    "name": "MsNc Nguyễn Đức",
+    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng",
+    "period": "Bổ nhiệm năm 2013",
+    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng.",
+    "portrait": "N/A"
+  },
+  {
+    "id": 9,
+    "name": "Ntd Huỳnh Thị Xuân Mai",
+    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Lai Uyên",
+    "period": "Bổ nhiệm ngày 30/10/2016",
+    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Lai Uyên.",
+    "portrait": "N/A"
+  }
+]
