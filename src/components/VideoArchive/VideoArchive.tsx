@@ -14,7 +14,7 @@ const categoryLabel: Record<string, string> = {
 
 export default function VideoArchive() {
   return (
-    <section id="videos" className="section-padding bg-brown-dark text-ivory">
+    <section id="videos" className="section-padding bg-navy-dark text-surface">
       <div className="container-narrow">
         <SectionHeading
           eyebrow="Kho Lưu Trữ"
@@ -37,7 +37,7 @@ export default function VideoArchive() {
         >
           {videos.map((video) => (
             <SwiperSlide key={video.id} className="h-auto">
-              <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-gold/15 bg-brown/40 shadow-elegant">
+              <article className="flex h-full flex-col overflow-hidden rounded-2xl border border-blue-light/20 bg-navy/40 shadow-elegant">
                 <div className="relative aspect-video w-full overflow-hidden">
                   <iframe
                     className="absolute inset-0 h-full w-full"
@@ -49,13 +49,13 @@ export default function VideoArchive() {
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <span className="mb-2 inline-block w-fit rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-gold-light">
+                  <span className="mb-2 inline-block w-fit rounded-full bg-blue-light/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-cream">
                     {categoryLabel[video.category]}
                   </span>
-                  <h3 className="font-display text-xl font-semibold text-ivory">
+                  <h3 className="font-display text-xl font-semibold text-surface">
                     {video.title}
                   </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ivory/70">
+                  <p className="mt-3 text-sm leading-relaxed text-surface/70">
                     {video.description}
                   </p>
                 </div>

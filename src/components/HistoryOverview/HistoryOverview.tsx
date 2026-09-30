@@ -44,7 +44,7 @@ const milestones: Milestone[] = [
 
 export default function HistoryOverview() {
   return (
-    <section id="journey" className="section-padding bg-ivory">
+    <section id="journey" className="section-padding bg-surface">
       <div className="container-narrow">
         <SectionHeading
           eyebrow="Nửa Thế Kỷ Ân Điển"
@@ -66,7 +66,7 @@ export default function HistoryOverview() {
                 key={m.era}
                 variants={fadeUp}
                 whileHover={{ y: -10 }}
-                className="group overflow-hidden rounded-2xl bg-white shadow-elegant transition-shadow duration-500 hover:shadow-gold"
+                className="group overflow-hidden rounded-2xl bg-white shadow-elegant transition-shadow duration-500 hover:shadow-blue"
               >
                 <div className="relative h-52 overflow-hidden">
                   <img
@@ -74,19 +74,19 @@ export default function HistoryOverview() {
                     alt={m.era}
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-brown-dark/70 to-transparent" />
-                  <span className="absolute bottom-4 left-4 flex h-14 w-14 items-center justify-center rounded-full bg-gold-gradient text-brown-dark shadow-gold">
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/70 to-transparent" />
+                  <span className="absolute bottom-4 left-4 flex h-14 w-14 items-center justify-center rounded-full bg-blue text-white shadow-blue">
                     <Icon size={28} />
                   </span>
                 </div>
                 <div className="p-8">
-                  <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+                  <p className="text-sm font-semibold uppercase tracking-widest text-blue">
                     {m.years}
                   </p>
-                  <h3 className="mt-2 font-display text-2xl font-bold text-brown">
+                  <h3 className="mt-2 font-display text-2xl font-bold text-navy">
                     {m.era}
                   </h3>
-                  <p className="mt-4 leading-relaxed text-brown-light">
+                  <p className="mt-4 leading-relaxed text-muted">
                     {m.description}
                   </p>
                 </div>

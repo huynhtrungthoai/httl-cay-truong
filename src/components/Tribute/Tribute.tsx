@@ -38,7 +38,7 @@ const tributes: Tribute[] = [
 
 export default function Tribute() {
   return (
-    <section id="gratitude" className="section-padding bg-ivory">
+    <section id="gratitude" className="section-padding bg-surface">
       <div className="container-narrow">
         <SectionHeading
           eyebrow="Tấm Lòng Biết Ơn"
@@ -58,19 +58,19 @@ export default function Tribute() {
               key={t.to}
               variants={fadeUp}
               whileHover={{ y: -6 }}
-              className="relative overflow-hidden rounded-2xl border border-gold/20 bg-white p-8 shadow-elegant transition-shadow hover:shadow-gold"
+              className="relative overflow-hidden rounded-2xl border border-blue/20 bg-white p-8 shadow-elegant transition-shadow hover:shadow-blue"
             >
-              <FaQuoteLeft className="mb-4 text-gold/40" size={36} />
-              <h3 className="mb-3 font-display text-xl font-bold text-brown">
+              <FaQuoteLeft className="mb-4 text-blue/40" size={36} />
+              <h3 className="mb-3 font-display text-xl font-bold text-navy">
                 {t.to}
               </h3>
-              <p className="font-serif text-lg italic leading-relaxed text-brown-light">
+              <p className="font-serif text-lg italic leading-relaxed text-muted">
                 {t.message}
               </p>
-              <footer className="mt-6 text-sm font-semibold uppercase tracking-widest text-gold">
+              <footer className="mt-6 text-sm font-semibold uppercase tracking-widest text-blue">
                 — {t.from}
               </footer>
-              <span className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-gold/10" />
+              <span className="pointer-events-none absolute -right-6 -top-6 h-24 w-24 rounded-full bg-blue/10" />
             </motion.blockquote>
           ))}
         </motion.div>

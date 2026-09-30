@@ -68,7 +68,7 @@ export default function Gallery() {
                 viewport={viewportOnce}
                 transition={{ duration: 0.4 }}
                 onClick={() => setIndex(i)}
-                className="group relative block w-full overflow-hidden rounded-xl shadow-elegant focus:outline-none focus:ring-2 focus:ring-gold"
+                className="group relative block w-full overflow-hidden rounded-xl shadow-elegant focus:outline-none focus:ring-2 focus:ring-blue"
               >
                 <img
                   src={img.src}
@@ -76,8 +76,8 @@ export default function Gallery() {
                   loading="lazy"
                   className="w-full transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-brown-dark/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span className="p-4 text-left text-sm font-medium text-ivory">
+                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-navy-dark/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                  <span className="p-4 text-left text-sm font-medium text-surface">
                     {img.alt}
                   </span>
                 </div>
@@ -111,8 +111,8 @@ function FilterButton({
       onClick={onClick}
       className={`rounded-full px-5 py-2 text-sm font-medium transition-all duration-300 ${
         active
-          ? 'bg-gold-gradient text-brown-dark shadow-gold'
-          : 'border border-brown/20 text-brown-light hover:border-gold hover:text-gold'
+          ? 'bg-blue text-white shadow-blue'
+          : 'border border-navy/20 text-muted hover:border-blue hover:text-blue'
       }`}
     >
       {label}

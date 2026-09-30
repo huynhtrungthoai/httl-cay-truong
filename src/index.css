@@ -5,10 +5,11 @@
 @layer base {
   :root {
     scroll-behavior: smooth;
+    --swiper-theme-color: #4a9bd8;
   }
 
   body {
-    @apply bg-ivory text-brown font-sans antialiased;
+    @apply bg-surface text-ink font-sans antialiased;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -19,24 +20,23 @@
     @apply font-display;
   }
 
-  /* Elegant scrollbar */
   ::-webkit-scrollbar {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #f8f5ee;
+    background: #f7fafd;
   }
   ::-webkit-scrollbar-thumb {
-    background: #c9a227;
+    background: #4a9bd8;
     border-radius: 6px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #a07f16;
+    background: #0358a7;
   }
 
   ::selection {
-    background: rgba(201, 162, 39, 0.3);
-    color: #3b2f2f;
+    background: rgba(74, 155, 216, 0.3);
+    color: #013778;
   }
 }
 
@@ -49,32 +49,19 @@
     @apply mx-auto max-w-7xl;
   }
 
-  /* Gold shimmering text */
-  .text-shimmer {
-    background: linear-gradient(
-      90deg,
-      #a07f16 0%,
-      #e0c158 25%,
-      #fff4cf 50%,
-      #e0c158 75%,
-      #a07f16 100%
-    );
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    @apply animate-shimmer;
+  .text-accent {
+    @apply text-cream;
   }
 
-  .gold-divider {
-    @apply mx-auto h-[3px] w-24 rounded-full bg-gold-gradient;
+  .blue-divider {
+    @apply mx-auto h-[3px] w-24 rounded-full bg-blue-gradient;
   }
 
-  .btn-gold {
-    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold-gradient px-8 py-3 font-sans font-semibold text-brown-dark shadow-gold transition-transform duration-300 hover:scale-105 hover:shadow-elegant focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2;
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-blue px-8 py-3 font-sans font-semibold text-white shadow-blue transition-all duration-300 hover:scale-105 hover:brightness-110 focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2;
   }
 
   .btn-outline {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ivory/70 px-8 py-3 font-sans font-semibold text-ivory transition-colors duration-300 hover:bg-ivory/10 focus:outline-none focus:ring-2 focus:ring-ivory;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-surface/70 px-8 py-3 font-sans font-semibold text-surface transition-colors duration-300 hover:bg-surface/10 focus:outline-none focus:ring-2 focus:ring-surface;
   }
 }

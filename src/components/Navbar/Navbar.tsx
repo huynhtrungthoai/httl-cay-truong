@@ -37,7 +37,7 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-brown-dark/95 shadow-elegant backdrop-blur-md"
+          ? "bg-navy-dark/95 shadow-elegant backdrop-blur-md"
           : "bg-transparent"
       }`}
     >
@@ -47,15 +47,18 @@ export default function Navbar() {
           className="flex items-center gap-3 text-left"
           aria-label="Về đầu trang"
         >
-          <img src={Images.Logo} loading="lazy" className="h-7 w-12" />
-          {/* <span className="flex h-10 w-10 items-center justify-center rounded-full bg-gold-gradient font-display text-lg font-bold text-brown-dark">
-            50
-          </span> */}
+          <img
+            src={Images.Logo}
+            alt=""
+            width={48}
+            height={48}
+            className="h-12 w-12 shrink-0 object-contain"
+          />
           <span className="hidden flex-col leading-tight sm:flex">
-            <span className="font-display text-base font-semibold text-ivory">
+            <span className="font-display text-base font-semibold text-surface">
               Chi Hội Cây Trường
             </span>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-gold">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-cream">
               1976 — 2026
             </span>
           </span>
@@ -67,7 +70,7 @@ export default function Navbar() {
             <li key={link.id}>
               <button
                 onClick={() => handleClick(link.id)}
-                className="rounded-full px-4 py-2 text-sm font-medium text-ivory/90 transition-colors hover:text-gold"
+                className="rounded-full px-4 py-2 text-sm font-medium text-surface/90 transition-colors hover:text-cream"
               >
                 {link.label}
               </button>
@@ -77,7 +80,7 @@ export default function Navbar() {
 
         {/* Mobile toggle */}
         <button
-          className="text-ivory lg:hidden"
+          className="text-surface lg:hidden"
           onClick={() => setOpen((v) => !v)}
           aria-label={open ? "Đóng menu" : "Mở menu"}
           aria-expanded={open}
@@ -94,14 +97,14 @@ export default function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="overflow-hidden bg-brown-dark/98 backdrop-blur-md lg:hidden"
+            className="overflow-hidden bg-navy-dark/98 backdrop-blur-md lg:hidden"
           >
             <ul className="flex flex-col gap-1 px-6 pb-6 pt-2">
               {navLinks.map((link) => (
                 <li key={link.id}>
                   <button
                     onClick={() => handleClick(link.id)}
-                    className="w-full rounded-lg px-4 py-3 text-left text-base font-medium text-ivory/90 transition-colors hover:bg-ivory/10 hover:text-gold"
+                    className="w-full rounded-lg px-4 py-3 text-left text-base font-medium text-surface/90 transition-colors hover:bg-surface/10 hover:text-cream"
                   >
                     {link.label}
                   </button>
