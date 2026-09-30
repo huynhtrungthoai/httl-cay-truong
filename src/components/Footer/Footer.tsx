@@ -93,14 +93,18 @@ export default function Footer() {
             </ul>
             <div className="mt-5 flex gap-3">
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61578290369709"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Facebook"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-blue-light/40 text-blue-light transition-colors hover:bg-blue hover:text-white"
               >
                 <FaFacebookF />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/@hoithanhtinlanhcaytruong449"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="YouTube"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-blue-light/40 text-blue-light transition-colors hover:bg-blue hover:text-white"
               >
