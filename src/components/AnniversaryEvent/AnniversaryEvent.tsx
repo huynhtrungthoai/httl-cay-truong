@@ -77,7 +77,7 @@ export default function AnniversaryEvent() {
           >
             <FiCalendar className="shrink-0 text-blue-light" size={32} />
             <div>
-              <p className="text-xs uppercase tracking-widest text-cream">
+              <p className="text-xs uppercase tracking-widest text-coral">
                 Thời Gian
               </p>
               <p className="font-display text-lg font-semibold">
@@ -91,15 +91,26 @@ export default function AnniversaryEvent() {
           >
             <FiMapPin className="shrink-0 text-blue-light" size={32} />
             <div>
-              <p className="text-xs uppercase tracking-widest text-cream">
+              <p className="text-xs uppercase tracking-widest text-coral">
                 Địa Điểm
               </p>
-              <p className="font-display text-lg font-semibold">
-                {celebration.name}
-              </p>
-              <p className="mt-1 text-sm text-surface/80">
-                {celebration.address}
-              </p>
+              <a
+                href={celebration.location}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Mở Google Maps để chỉ đường đến ${celebration.name}, ${celebration.address}`}
+                className="group block rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
+              >
+                <span className="block font-display text-lg font-semibold group-hover:text-coral">
+                  {celebration.name}
+                </span>
+                <span className="mt-1 block text-sm text-surface/80 underline decoration-blue-light/70 underline-offset-4 group-hover:text-surface">
+                  {celebration.address}
+                </span>
+                <span className="mt-2 block text-sm font-semibold text-coral group-hover:underline">
+                  Chỉ đường trên Google Maps
+                </span>
+              </a>
             </div>
           </motion.div>
         </motion.div>

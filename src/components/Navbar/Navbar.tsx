@@ -38,7 +38,7 @@ export default function Navbar() {
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-navy-dark/95 shadow-elegant backdrop-blur-md"
-          : "bg-transparent"
+          : "bg-navy-dark/70 backdrop-blur-sm"
       }`}
     >
       <nav className="container-narrow flex items-center justify-between px-6 py-4 lg:px-12">
@@ -58,7 +58,7 @@ export default function Navbar() {
             <span className="font-display text-base font-semibold text-surface">
               Chi Hội Cây Trường
             </span>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-cream">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-coral">
               1976 — 2026
             </span>
           </span>
@@ -70,7 +70,7 @@ export default function Navbar() {
             <li key={link.id}>
               <button
                 onClick={() => handleClick(link.id)}
-                className="rounded-full px-4 py-2 text-sm font-medium text-surface/90 transition-colors hover:text-cream"
+                className="rounded-full px-4 py-2 text-sm font-medium text-surface/90 transition-colors hover:text-coral"
               >
                 {link.label}
               </button>
@@ -104,7 +104,7 @@ export default function Navbar() {
                 <li key={link.id}>
                   <button
                     onClick={() => handleClick(link.id)}
-                    className="w-full rounded-lg px-4 py-3 text-left text-base font-medium text-surface/90 transition-colors hover:bg-surface/10 hover:text-cream"
+                    className="w-full rounded-lg px-4 py-3 text-left text-base font-medium text-surface/90 transition-colors hover:bg-surface/10 hover:text-coral"
                   >
                     {link.label}
                   </button>

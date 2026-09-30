@@ -34,7 +34,7 @@ export default function Footer() {
                 <p className="font-display text-lg font-semibold">
                   Chi Hội Cây Trường
                 </p>
-                <p className="text-xs uppercase tracking-[0.2em] text-cream">
+                <p className="text-xs uppercase tracking-[0.2em] text-coral">
                   1976 — 2026
                 </p>
               </div>
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h4 className="mb-4 font-display text-lg font-semibold text-cream">
+            <h4 className="mb-4 font-display text-lg font-semibold text-coral">
               Liên Kết Nhanh
             </h4>
             <ul className="space-y-2">
@@ -55,7 +55,7 @@ export default function Footer() {
                 <li key={link.id}>
                   <button
                     onClick={() => scrollTo(link.id)}
-                    className="text-surface/70 transition-colors hover:text-cream"
+                    className="text-surface/70 transition-colors hover:text-coral"
                   >
                     {link.label}
                   </button>
@@ -66,13 +66,21 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="mb-4 font-display text-lg font-semibold text-cream">
+            <h4 className="mb-4 font-display text-lg font-semibold text-coral">
               Liên Hệ
             </h4>
             <ul className="space-y-3 text-surface/70">
-              <li className="flex items-center gap-3">
-                <FiMapPin className="shrink-0 text-blue-light" />
-                {celebration.address}
+              <li>
+                <a
+                  href={celebration.location}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Mở Google Maps để chỉ đường đến ${celebration.name}, ${celebration.address}`}
+                  className="flex items-start gap-3 rounded-sm underline decoration-blue-light/60 underline-offset-4 transition-colors hover:text-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
+                >
+                  <FiMapPin className="mt-1 shrink-0 text-blue-light" />
+                  <span>{celebration.address}</span>
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <FiCalendar className="shrink-0 text-blue-light" />

@@ -40,7 +40,7 @@ export default function Leaders() {
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-brown-dark/90 via-brown-dark/10 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-cream">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-coral">
                     {leader.role}
                   </p>
                   <h3 className="font-display text-xl font-bold text-surface">

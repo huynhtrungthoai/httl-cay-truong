@@ -12,7 +12,7 @@ export default {
           DEFAULT: '#013778',
           dark: '#082A55',
         },
-        cream: '#FADAAC',
+        coral: '#FF8950',
         surface: '#F7FAFD',
         ink: '#173657',
         muted: '#4C6480',

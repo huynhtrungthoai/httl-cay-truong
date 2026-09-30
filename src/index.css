@@ -50,7 +50,7 @@
   }
 
   .text-accent {
-    @apply text-cream;
+    @apply text-coral;
   }
 
   .blue-divider {

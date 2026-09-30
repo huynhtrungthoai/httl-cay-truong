@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          className="mb-4 text-sm font-medium uppercase tracking-[0.4em] text-cream"
+          className="mx-auto mb-4 w-fit rounded-full border border-coral/40 bg-navy-dark/75 px-5 py-2 text-sm font-semibold uppercase tracking-[0.4em] text-coral backdrop-blur-sm"
         >
           1976 — 2026
         </motion.p>
@@ -67,7 +67,7 @@ export default function Hero() {
             “Hãy cảm tạ Đức Giê-hô-va, vì Ngài là thiện;
             <br className="hidden sm:block" /> sự nhân từ Ngài còn đến đời đời.”
           </p>
-          <p className="mt-2 text-sm uppercase tracking-widest text-cream">
+          <p className="mt-2 text-sm font-semibold uppercase tracking-widest text-coral drop-shadow-sm">
             Thi Thiên 107:1
           </p>
         </motion.div>

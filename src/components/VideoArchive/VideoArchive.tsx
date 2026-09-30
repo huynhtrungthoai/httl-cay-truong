@@ -49,7 +49,7 @@ export default function VideoArchive() {
                   />
                 </div>
                 <div className="flex flex-1 flex-col p-6">
-                  <span className="mb-2 inline-block w-fit rounded-full bg-blue-light/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-cream">
+                  <span className="mb-2 inline-block w-fit rounded-full bg-blue-light/15 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-coral">
                     {categoryLabel[video.category]}
                   </span>
                   <h3 className="font-display text-xl font-semibold text-surface">

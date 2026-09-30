@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { GiSprout, GiOakLeaf, GiSun } from 'react-icons/gi'
+import { GiSprout, GiCandleLight, GiOakLeaf, GiChurch } from 'react-icons/gi'
 import type { IconType } from 'react-icons'
 import SectionHeading from '../SectionHeading'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
@@ -15,28 +15,37 @@ interface Milestone {
 const milestones: Milestone[] = [
   {
     icon: GiSprout,
-    era: 'Đặt Nền Móng',
-    years: '1976 – 1990',
+    era: 'Thời Kỳ Đầu',
+    years: '1976 – 1978',
     description:
-      'Hội Thánh được thành lập và những năm tháng chức vụ đầu tiên. Hạt giống đức tin được gieo trồng trong sự cầu nguyện và lòng trung tín.',
+      'Các gia đình tín hữu đầu tiên theo chương trình kinh tế mới đến Cây Trường. Hội Thánh nhóm tại nhà TĐ Phan Quang Vũ, rồi cùng nhau dựng ngôi nhà nguyện vách đất, mái tranh — nghèo vật chất nhưng giàu tình yêu thương.',
     image:
       'https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&w=800&q=80',
   },
   {
-    icon: GiOakLeaf,
-    era: 'Tăng Trưởng',
-    years: '1991 – 2010',
+    icon: GiCandleLight,
+    era: 'Thời Kỳ Thầm Lặng',
+    years: '1978 – 1988',
     description:
-      'Mùa mở rộng và vươn ra. Hội Thánh phát triển về số lượng lẫn chiều sâu thuộc linh, các ban ngành được hình thành vững mạnh.',
+      'Gần mười năm gian nan, con cái Chúa tản lạc. Những người ở lại vẫn âm thầm học Kinh Thánh và cầu nguyện lúc 3–4 giờ khuya, giữ ngọn lửa đức tin không tắt.',
+    image:
+      'https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    icon: GiOakLeaf,
+    era: 'Thời Kỳ Tái Lập',
+    years: '1988 – 1993',
+    description:
+      'Tháng 12/1988, Hội Thánh được phép mở cửa lại, nhóm mỗi tháng một lần tại nhà Ông Bà Nguyễn Thành Tâm. Từ năm 1992, Hội Thánh được nhóm thờ phượng vào Chúa Nhật mỗi tuần.',
     image:
       'https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80',
   },
   {
-    icon: GiSun,
-    era: 'Hưng Thịnh',
-    years: '2011 – 2026',
+    icon: GiChurch,
+    era: 'Thời Kỳ Xây Dựng',
+    years: '1993 – 2026',
     description:
-      'Tầm ảnh hưởng lan rộng và tầm nhìn cho tương lai. Một thế hệ mới tiếp nối ngọn lửa đức tin và sứ mạng truyền giáo.',
+      'Đặt viên đá đầu tiên năm 2004, cung hiến Đền Thờ năm 2008, được công nhận Chi Hội Tự Lập năm 2010. Hội Thánh mở mang các điểm nhóm Tân Hưng, Lai Uyên và phục vụ cộng đồng.',
     image:
       'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80',
   },
@@ -49,7 +58,7 @@ export default function HistoryOverview() {
         <SectionHeading
           eyebrow="Nửa Thế Kỷ Ân Điển"
           title="Hành Trình 50 Năm"
-          subtitle="Ba mùa của một câu chuyện đức tin không ngừng nghỉ"
+          subtitle="Bốn thời kỳ của một câu chuyện đức tin không ngừng nghỉ"
         />
 
         <motion.div
@@ -57,7 +66,7 @@ export default function HistoryOverview() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="grid gap-8 md:grid-cols-3"
+          className="grid gap-8 md:grid-cols-2 lg:grid-cols-4"
         >
           {milestones.map((m) => {
             const Icon = m.icon
