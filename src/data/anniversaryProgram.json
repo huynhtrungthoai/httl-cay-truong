@@ -1,0 +1,52 @@
+{
+  "title": "Chương trình Lễ Cảm Tạ Chúa",
+  "startsAt": "2026-11-17T09:00:00+07:00",
+  "theme": "Dâng lời tạ ơn Chúa",
+  "verse": "Thi Thiên 26:7",
+  "host": "CS Nguyễn Hồng Ân, Thư ký HT",
+  "location": {
+    "name": "Hội Thánh Tin Lành Cây Trường",
+    "address": "Tổ 3, ấp Ông Chài, xã Trừ Văn Thố, TP. Hồ Chí Minh",
+    "mapUrl": "https://maps.app.goo.gl/kvsziDe91H6fXTVeA"
+  },
+  "sections": [
+  {
+    "title": "Khai lễ",
+    "items": [
+      { "number": 1, "title": "TC 26: Chúc Cho Đấng Ngồi Trên Ngôi", "performer": "Hội chúng" },
+      { "number": 2, "title": "Cầu nguyện khai lễ", "performer": "Mục sư" },
+      { "number": 3, "title": "Giới thiệu, chào mừng", "performer": "Quản nhiệm" }
+    ]
+  },
+  {
+    "title": "Chính lễ",
+    "items": [
+      { "number": 4, "title": "TC 513: Lớn Bấy Duy Ngài", "performer": "Hội chúng" },
+      { "number": 5, "title": "TC 516: Vinh Quang Thuộc Về Đức Chúa Trời", "performer": "BHL HT Cây Trường" },
+      { "number": 6, "title": "TC 675: Tôn Vinh Chúa", "performer": "Quý Ông Bà MSTD, NTD, QpMs" },
+      { "number": 7, "title": "Lược sử Hội Thánh (Phần 1)", "performer": "Video clip" },
+      { "number": 8, "title": "BTC: Phục Hưng Hội Thánh", "performer": "BHL HT Cây Trường" },
+      { "number": 9, "title": "Dâng hiến - TC 741: Chúa Hằng Chăn Giữ Tôi (hát 2 lần)", "performer": "" },
+      { "number": 10, "title": "Cầu nguyện dâng hiến", "performer": "Chấp sự HT" },
+      { "number": 11, "title": "TC 676: Bài Ca Cảm Tạ", "performer": "Tín hữu xuất thân từ Cây Trường về dự lễ" },
+      { "number": 12, "title": "Lược sử Hội Thánh (Phần 2)", "performer": "Video clip" },
+      { "number": 13, "title": "BTC: Alpha và Omega", "performer": "Ban Thanh niên" },
+      { "number": 14, "title": "Đọc Kinh Thánh", "performer": "HDCT" },
+      { "number": 15, "title": "Sứ điệp cảm tạ: Dâng Lời Tạ Ơn Chúa", "performer": "MS Hội Trưởng" },
+      { "number": 16, "title": "Cầu nguyện cảm tạ", "performer": "Mục sư" },
+      { "number": 17, "title": "Tri ân tiền nhân: Quý MSTD tiền nhiệm và cộng tác; Quý chấp sự các thời kỳ", "performer": "Thư ký Hội Thánh" },
+      { "number": 18, "title": "Chúc mừng", "performer": "Các đại diện" },
+      { "number": 19, "title": "Lời tri ân", "performer": "MS Quản nhiệm" },
+      { "number": 20, "title": "Thông báo", "performer": "HDCT" }
+    ]
+  },
+  {
+    "title": "Tất lễ",
+    "items": [
+      { "number": 21, "title": "Cầu nguyện tất lễ", "performer": "Mục sư" },
+      { "number": 22, "title": "Cầu nguyện chung, TC 23", "performer": "Hội Thánh" },
+      { "number": 23, "title": "Chúc phước", "performer": "MS Hội Trưởng" }
+    ]
+  }
+]
+}

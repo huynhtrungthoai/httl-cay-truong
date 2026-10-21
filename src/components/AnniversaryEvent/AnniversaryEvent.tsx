@@ -1,22 +1,11 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import {
-  FiCalendar,
-  FiMapPin,
-  FiClock,
-} from 'react-icons/fi'
+import program from '../../data/anniversaryProgram.json'
+import { FiCalendar, FiMapPin } from 'react-icons/fi'
 import SectionHeading from '../SectionHeading'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
 
-// The Golden Jubilee celebration date.
-const EVENT_DATE = new Date('2026-10-18T08:00:00+07:00')
-
-const schedule = [
-  { time: '08:00', title: 'Khai Lễ Thờ Phượng', desc: 'Ngợi khen và tôn vinh Chúa' },
-  { time: '09:30', title: 'Trình Bày Lịch Sử', desc: 'Hành trình 50 năm ân điển' },
-  { time: '11:00', title: 'Lễ Tạ Ơn', desc: 'Dâng lời cảm tạ lên Đức Chúa Trời' },
-  { time: '14:00', title: 'Thông Công', desc: 'Gặp gỡ và chia sẻ niềm vui' },
-]
+const EVENT_DATE = new Date(program.startsAt)
 
 interface TimeLeft {
   days: number
@@ -80,34 +69,52 @@ export default function AnniversaryEvent() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mx-auto mb-12 grid max-w-3xl gap-6 sm:grid-cols-2"
+          className="mx-auto mb-10 grid max-w-4xl gap-6 sm:grid-cols-2"
         >
           <motion.div
             variants={fadeUp}
-            className="flex items-center gap-4 rounded-2xl border border-gold/20 bg-brown-dark/50 p-6 backdrop-blur-sm"
+            className="flex items-start gap-3"
           >
-            <FiCalendar className="shrink-0 text-gold" size={32} />
+            <FiCalendar className="mt-1 shrink-0 text-gold-light" size={24} />
             <div>
-              <p className="text-xs uppercase tracking-widest text-gold-light">
+              <p className="text-sm font-semibold text-gold-light">
                 Thời Gian
               </p>
-              <p className="font-display text-lg font-semibold">
-                Chúa Nhật, 18/10/2026
+              <p className="mt-1 text-lg font-semibold">
+                {EVENT_DATE.toLocaleString('vi-VN', {
+                  timeZone: 'Asia/Ho_Chi_Minh',
+                  hour: '2-digit',
+                  minute: '2-digit',
+                  day: '2-digit',
+                  month: '2-digit',
+                  year: 'numeric',
+                })}
               </p>
             </div>
           </motion.div>
           <motion.div
             variants={fadeUp}
-            className="flex items-center gap-4 rounded-2xl border border-gold/20 bg-brown-dark/50 p-6 backdrop-blur-sm"
+            className="flex items-start gap-3"
           >
-            <FiMapPin className="shrink-0 text-gold" size={32} />
+            <FiMapPin className="mt-1 shrink-0 text-gold-light" size={24} />
             <div>
-              <p className="text-xs uppercase tracking-widest text-gold-light">
+              <p className="text-sm font-semibold text-gold-light">
                 Địa Điểm
               </p>
-              <p className="font-display text-lg font-semibold">
-                Chi Hội Cây Trường
+              <p className="mt-1 text-lg font-semibold">
+                {program.location.name}
               </p>
+              <p className="mt-1 text-sm leading-6 text-ivory/80">
+                {program.location.address}
+              </p>
+              <a
+                href={program.location.mapUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-block text-sm font-semibold text-gold-light underline underline-offset-4"
+              >
+                Xem đường đi
+              </a>
             </div>
           </motion.div>
         </motion.div>
@@ -118,17 +125,17 @@ export default function AnniversaryEvent() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mx-auto mb-16 grid max-w-2xl grid-cols-4 gap-3 sm:gap-6"
+          className="mx-auto mb-14 grid max-w-xl grid-cols-4 gap-2 sm:gap-4"
         >
           {units.map((u) => (
             <div
               key={u.label}
-              className="rounded-2xl border border-gold/30 bg-gradient-to-b from-brown-dark/70 to-brown/40 py-6 text-center backdrop-blur-sm"
+              className="flex min-w-0 flex-col items-center text-center"
             >
-              <span className="block font-display text-3xl font-bold text-shimmer sm:text-5xl">
+              <span className="flex h-12 items-center justify-center font-sans text-3xl font-semibold leading-none tabular-nums text-ivory sm:h-14 sm:text-4xl">
                 {String(u.value).padStart(2, '0')}
               </span>
-              <span className="mt-1 block text-xs uppercase tracking-widest text-ivory/70 sm:text-sm">
+              <span className="mt-1 text-sm leading-5 text-ivory/75">
                 {u.label}
               </span>
             </div>
@@ -136,35 +143,44 @@ export default function AnniversaryEvent() {
         </motion.div>
 
         {/* Schedule */}
-        <div className="mx-auto max-w-3xl">
-          <h3 className="mb-8 text-center font-display text-2xl font-semibold text-gold-light">
-            Chương Trình Đại Lễ
+        <div className="mx-auto max-w-4xl">
+          <h3 className="text-center font-display text-2xl font-semibold text-gold-light">
+            {program.title}
           </h3>
-          <motion.ul
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={viewportOnce}
-            className="space-y-4"
-          >
-            {schedule.map((item) => (
-              <motion.li
-                key={item.time}
-                variants={fadeUp}
-                className="flex items-center gap-5 rounded-xl border border-gold/15 bg-brown-dark/50 p-5 backdrop-blur-sm transition-colors hover:border-gold/40"
-              >
-                <div className="flex w-20 shrink-0 items-center gap-2 font-display text-xl font-bold text-gold">
-                  <FiClock size={18} />
-                  {item.time}
-                </div>
-                <div className="h-10 w-px bg-gold/30" />
-                <div>
-                  <p className="font-semibold text-ivory">{item.title}</p>
-                  <p className="text-sm text-ivory/70">{item.desc}</p>
-                </div>
-              </motion.li>
+          <p className="mt-2 text-center text-ivory/80">
+            Chủ đề: {program.theme} · Câu gốc: {program.verse}
+          </p>
+          <p className="mt-1 text-center text-sm text-ivory/70">
+            HDCT: {program.host}
+          </p>
+
+          <div className="mt-8 space-y-8">
+            {program.sections.map((section) => (
+              <div key={section.title}>
+                <h4 className="mb-3 font-display text-2xl font-semibold text-gold-light">
+                  {section.title}
+                </h4>
+                <ol className="space-y-1">
+                  {section.items.map((item) => (
+                    <li
+                      key={item.number}
+                      className="grid grid-cols-[2rem_minmax(0,1fr)] gap-x-3 gap-y-1 px-2 py-2 even:bg-ivory/5 sm:grid-cols-[2rem_minmax(0,1fr)_14rem]"
+                    >
+                      <span className="font-semibold tabular-nums text-gold-light">
+                        {item.number}.
+                      </span>
+                      <span className="font-medium leading-snug">{item.title}</span>
+                      {item.performer && (
+                        <span className="col-start-2 text-sm leading-snug text-ivory/75 sm:col-start-3 sm:text-right">
+                          {item.performer}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </div>
             ))}
-          </motion.ul>
+          </div>
         </div>
       </div>
     </section>
