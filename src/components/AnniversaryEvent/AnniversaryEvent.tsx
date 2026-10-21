@@ -1,49 +1,50 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import program from '../../data/anniversaryProgram.json'
 import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import program from '../../data/anniversaryProgram.json'
+import { celebration } from '../../data/event'
 import SectionHeading from '../SectionHeading'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
 
 const EVENT_DATE = new Date(program.startsAt)
 
 interface TimeLeft {
-  days: number
-  hours: number
-  minutes: number
-  seconds: number
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
 }
 
 function getTimeLeft(): TimeLeft {
-  const diff = EVENT_DATE.getTime() - Date.now()
-  const clamped = Math.max(diff, 0)
+  const diff = EVENT_DATE.getTime() - Date.now();
+  const clamped = Math.max(diff, 0);
   return {
     days: Math.floor(clamped / 86_400_000),
     hours: Math.floor((clamped / 3_600_000) % 24),
     minutes: Math.floor((clamped / 60_000) % 60),
     seconds: Math.floor((clamped / 1000) % 60),
-  }
+  };
 }
 
 export default function AnniversaryEvent() {
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>(getTimeLeft)
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>(getTimeLeft);
 
   useEffect(() => {
-    const id = setInterval(() => setTimeLeft(getTimeLeft()), 1000)
-    return () => clearInterval(id)
-  }, [])
+    const id = setInterval(() => setTimeLeft(getTimeLeft()), 1000);
+    return () => clearInterval(id);
+  }, []);
 
   const units: { label: string; value: number }[] = [
-    { label: 'Ngày', value: timeLeft.days },
-    { label: 'Giờ', value: timeLeft.hours },
-    { label: 'Phút', value: timeLeft.minutes },
-    { label: 'Giây', value: timeLeft.seconds },
-  ]
+    { label: "Ngày", value: timeLeft.days },
+    { label: "Giờ", value: timeLeft.hours },
+    { label: "Phút", value: timeLeft.minutes },
+    { label: "Giây", value: timeLeft.seconds },
+  ];
 
   return (
     <section
       id="celebration"
-      className="relative overflow-hidden section-padding text-ivory"
+      className="relative overflow-hidden section-padding text-surface"
     >
       {/* Banner background */}
       <div className="absolute inset-0 -z-20">
@@ -53,7 +54,7 @@ export default function AnniversaryEvent() {
           className="h-full w-full object-cover"
         />
       </div>
-      <div className="absolute inset-0 -z-10 bg-brown-dark/85" />
+      <div className="absolute inset-0 -z-10 bg-navy-dark/85" />
 
       <div className="container-narrow">
         <SectionHeading
@@ -73,47 +74,43 @@ export default function AnniversaryEvent() {
         >
           <motion.div
             variants={fadeUp}
-            className="flex items-start gap-3"
+            className="flex items-center gap-4 rounded-2xl border border-blue-light/30 bg-navy-dark/50 p-6 backdrop-blur-sm"
           >
-            <FiCalendar className="mt-1 shrink-0 text-gold-light" size={24} />
+            <FiCalendar className="shrink-0 text-blue-light" size={32} />
             <div>
-              <p className="text-sm font-semibold text-gold-light">
+              <p className="text-xs uppercase tracking-widest text-coral">
                 Thời Gian
               </p>
-              <p className="mt-1 text-lg font-semibold">
-                {EVENT_DATE.toLocaleString('vi-VN', {
-                  timeZone: 'Asia/Ho_Chi_Minh',
-                  hour: '2-digit',
-                  minute: '2-digit',
-                  day: '2-digit',
-                  month: '2-digit',
-                  year: 'numeric',
-                })}
+              <p className="font-display text-lg font-semibold">
+                {celebration.timeLabel}
               </p>
             </div>
           </motion.div>
           <motion.div
             variants={fadeUp}
-            className="flex items-start gap-3"
+            className="flex items-center gap-4 rounded-2xl border border-blue-light/30 bg-navy-dark/50 p-6 backdrop-blur-sm"
           >
-            <FiMapPin className="mt-1 shrink-0 text-gold-light" size={24} />
+            <FiMapPin className="shrink-0 text-blue-light" size={32} />
             <div>
-              <p className="text-sm font-semibold text-gold-light">
+              <p className="text-xs uppercase tracking-widest text-coral">
                 Địa Điểm
-              </p>
-              <p className="mt-1 text-lg font-semibold">
-                {program.location.name}
-              </p>
-              <p className="mt-1 text-sm leading-6 text-ivory/80">
-                {program.location.address}
               </p>
               <a
                 href={program.location.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-1 inline-block text-sm font-semibold text-gold-light underline underline-offset-4"
+                aria-label={`Mở Google Maps để chỉ đường đến ${program.location.name}, ${program.location.address}`}
+                className="group block rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
               >
-                Xem đường đi
+                <span className="block font-display text-lg font-semibold group-hover:text-coral">
+                  {program.location.name}
+                </span>
+                <span className="mt-1 block text-sm text-surface/80 underline decoration-blue-light/70 underline-offset-4 group-hover:text-surface">
+                  {program.location.address}
+                </span>
+                <span className="mt-2 block text-sm font-semibold text-coral group-hover:underline">
+                  Chỉ đường trên Google Maps
+                </span>
               </a>
             </div>
           </motion.div>
@@ -132,10 +129,10 @@ export default function AnniversaryEvent() {
               key={u.label}
               className="flex min-w-0 flex-col items-center text-center"
             >
-              <span className="flex h-12 items-center justify-center font-sans text-3xl font-semibold leading-none tabular-nums text-ivory sm:h-14 sm:text-4xl">
+              <span className="flex h-12 items-center justify-center font-sans text-3xl font-semibold leading-none tabular-nums text-surface sm:h-14 sm:text-4xl">
                 {String(u.value).padStart(2, '0')}
               </span>
-              <span className="mt-1 text-sm leading-5 text-ivory/75">
+              <span className="mt-1 text-sm leading-5 text-surface/75">
                 {u.label}
               </span>
             </div>
@@ -144,34 +141,34 @@ export default function AnniversaryEvent() {
 
         {/* Schedule */}
         <div className="mx-auto max-w-4xl">
-          <h3 className="text-center font-display text-2xl font-semibold text-gold-light">
+          <h3 className="text-center font-display text-2xl font-semibold text-coral">
             {program.title}
           </h3>
-          <p className="mt-2 text-center text-ivory/80">
+          <p className="mt-2 text-center text-surface/80">
             Chủ đề: {program.theme} · Câu gốc: {program.verse}
           </p>
-          <p className="mt-1 text-center text-sm text-ivory/70">
+          <p className="mt-1 text-center text-sm text-surface/70">
             HDCT: {program.host}
           </p>
 
           <div className="mt-8 space-y-8">
             {program.sections.map((section) => (
               <div key={section.title}>
-                <h4 className="mb-3 font-display text-2xl font-semibold text-gold-light">
+                <h4 className="mb-3 font-display text-2xl font-semibold text-coral">
                   {section.title}
                 </h4>
                 <ol className="space-y-1">
                   {section.items.map((item) => (
                     <li
                       key={item.number}
-                      className="grid grid-cols-[2rem_minmax(0,1fr)] gap-x-3 gap-y-1 px-2 py-2 even:bg-ivory/5 sm:grid-cols-[2rem_minmax(0,1fr)_14rem]"
+                      className="grid grid-cols-[2rem_minmax(0,1fr)] gap-x-3 gap-y-1 px-2 py-2 even:bg-surface/5 sm:grid-cols-[2rem_minmax(0,1fr)_14rem]"
                     >
-                      <span className="font-semibold tabular-nums text-gold-light">
+                      <span className="font-semibold tabular-nums text-coral">
                         {item.number}.
                       </span>
                       <span className="font-medium leading-snug">{item.title}</span>
                       {item.performer && (
-                        <span className="col-start-2 text-sm leading-snug text-ivory/75 sm:col-start-3 sm:text-right">
+                        <span className="col-start-2 text-sm leading-snug text-surface/75 sm:col-start-3 sm:text-right">
                           {item.performer}
                         </span>
                       )}
@@ -184,5 +181,5 @@ export default function AnniversaryEvent() {
         </div>
       </div>
     </section>
-  )
+  );
 }
