@@ -41,32 +41,32 @@
   },
   {
     "id": 6,
-    "name": "Truyền đạo Bùi Minh Quyền",
+    "name": "Mục sư Bùi Minh Quyền",
     "role": "Quản nhiệm",
     "period": "Từ 26/4/2012 đến nay",
     "bio": "Được bổ nhiệm làm Quản nhiệm Hội thánh thông qua lễ bổ nhiệm do Mục sư Điểu Huynh chủ tọa.",
-    "portrait": "N/A"
+    "portrait": "/images/leaders/ms-buiminhquyen.webp"
   },
   {
     "id": 7,
-    "name": "MsNc Nguyễn A-Bên",
-    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng",
+    "name": "Mục sư Nguyễn A-Bên",
+    "role": "Phụ tá Quản nhiệm",
     "period": "Bổ nhiệm chính thức năm 2011",
     "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng.",
-    "portrait": "N/A"
+    "portrait": "/images/leaders/ms-nguyenaben.webp"
   },
   {
     "id": 8,
-    "name": "MsNc Nguyễn Đức",
-    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng",
+    "name": "Mục sư Nguyễn Đức",
+    "role": "Phụ tá Quản nhiệm, Quản nhiệm",
     "period": "Bổ nhiệm năm 2013",
-    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng.",
-    "portrait": "N/A"
+    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng. từ năm 2013, đến năm 2021 ông được bổ nhiệm làm Quản nhiệm Hội thánh Cây Trường.",
+    "portrait": "/images/leaders/ms-nguyenduc.webp"
   },
   {
     "id": 9,
     "name": "Ntd Huỳnh Thị Xuân Mai",
-    "role": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Lai Uyên",
+    "role": "Phụ tá Quản nhiệm",
     "period": "Bổ nhiệm ngày 30/10/2016",
     "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Lai Uyên.",
     "portrait": "N/A"
