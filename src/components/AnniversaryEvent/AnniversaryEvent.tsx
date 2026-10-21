@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
-import { FiCalendar, FiMapPin } from "react-icons/fi";
-import SectionHeading from "../SectionHeading";
-import { fadeUp, staggerContainer, viewportOnce } from "../../lib/motion";
-import { celebration } from "../../data/event";
+import { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
+import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import program from '../../data/anniversaryProgram.json'
+import { celebration } from '../../data/event'
+import SectionHeading from '../SectionHeading'
+import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
 
-const EVENT_DATE = new Date(celebration.startsAt);
+const EVENT_DATE = new Date(program.startsAt)
 
 interface TimeLeft {
   days: number;
@@ -69,7 +70,7 @@ export default function AnniversaryEvent() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mx-auto mb-12 grid max-w-3xl gap-6 sm:grid-cols-2"
+          className="mx-auto mb-10 grid max-w-4xl gap-6 sm:grid-cols-2"
         >
           <motion.div
             variants={fadeUp}
@@ -95,17 +96,17 @@ export default function AnniversaryEvent() {
                 Địa Điểm
               </p>
               <a
-                href={celebration.location}
+                href={program.location.mapUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Mở Google Maps để chỉ đường đến ${celebration.name}, ${celebration.address}`}
+                aria-label={`Mở Google Maps để chỉ đường đến ${program.location.name}, ${program.location.address}`}
                 className="group block rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
               >
                 <span className="block font-display text-lg font-semibold group-hover:text-coral">
-                  {celebration.name}
+                  {program.location.name}
                 </span>
                 <span className="mt-1 block text-sm text-surface/80 underline decoration-blue-light/70 underline-offset-4 group-hover:text-surface">
-                  {celebration.address}
+                  {program.location.address}
                 </span>
                 <span className="mt-2 block text-sm font-semibold text-coral group-hover:underline">
                   Chỉ đường trên Google Maps
@@ -121,22 +122,63 @@ export default function AnniversaryEvent() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mx-auto grid max-w-2xl grid-cols-4 gap-3 sm:gap-6"
+          className="mx-auto mb-14 grid max-w-xl grid-cols-4 gap-2 sm:gap-4"
         >
           {units.map((u) => (
             <div
               key={u.label}
-              className="rounded-2xl border border-blue-light/30 bg-gradient-to-b from-navy-dark/70 to-navy/40 py-6 text-center backdrop-blur-sm"
+              className="flex min-w-0 flex-col items-center text-center"
             >
-              <span className="block font-display text-3xl font-bold text-accent sm:text-5xl">
-                {String(u.value).padStart(2, "0")}
+              <span className="flex h-12 items-center justify-center font-sans text-3xl font-semibold leading-none tabular-nums text-surface sm:h-14 sm:text-4xl">
+                {String(u.value).padStart(2, '0')}
               </span>
-              <span className="mt-1 block text-xs uppercase tracking-widest text-surface/70 sm:text-sm">
+              <span className="mt-1 text-sm leading-5 text-surface/75">
                 {u.label}
               </span>
             </div>
           ))}
         </motion.div>
+
+        {/* Schedule */}
+        <div className="mx-auto max-w-4xl">
+          <h3 className="text-center font-display text-2xl font-semibold text-coral">
+            {program.title}
+          </h3>
+          <p className="mt-2 text-center text-surface/80">
+            Chủ đề: {program.theme} · Câu gốc: {program.verse}
+          </p>
+          <p className="mt-1 text-center text-sm text-surface/70">
+            HDCT: {program.host}
+          </p>
+
+          <div className="mt-8 space-y-8">
+            {program.sections.map((section) => (
+              <div key={section.title}>
+                <h4 className="mb-3 font-display text-2xl font-semibold text-coral">
+                  {section.title}
+                </h4>
+                <ol className="space-y-1">
+                  {section.items.map((item) => (
+                    <li
+                      key={item.number}
+                      className="grid grid-cols-[2rem_minmax(0,1fr)] gap-x-3 gap-y-1 px-2 py-2 even:bg-surface/5 sm:grid-cols-[2rem_minmax(0,1fr)_14rem]"
+                    >
+                      <span className="font-semibold tabular-nums text-coral">
+                        {item.number}.
+                      </span>
+                      <span className="font-medium leading-snug">{item.title}</span>
+                      {item.performer && (
+                        <span className="col-start-2 text-sm leading-snug text-surface/75 sm:col-start-3 sm:text-right">
+                          {item.performer}
+                        </span>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
