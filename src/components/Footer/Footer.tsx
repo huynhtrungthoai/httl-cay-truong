@@ -1,4 +1,4 @@
-import { FiMapPin, FiMail, FiCalendar } from "react-icons/fi";
+import { FiMapPin, FiMail, FiCalendar, FiPhone } from "react-icons/fi";
 import { FaFacebookF, FaYoutube } from "react-icons/fa";
 import { Images } from "../../assets";
 import { celebration } from "../../data/event";
@@ -85,6 +85,15 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <FiCalendar className="shrink-0 text-blue-light" />
                 Lễ Cảm Tạ Chúa: {celebration.timeLabel}
+              </li>
+              <li>
+                <a
+                  href={celebration.phoneHref}
+                  className="flex items-center gap-3 transition-colors hover:text-surface"
+                >
+                  <FiPhone className="shrink-0 text-blue-light" />
+                  {celebration.phone}
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <FiMail className="shrink-0 text-blue-light" />

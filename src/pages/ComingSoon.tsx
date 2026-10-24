@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import { FiCalendar, FiMapPin, FiPhone } from 'react-icons/fi'
 import { Images } from '../assets'
+import { celebration } from '../data/event'
 import { fadeUp, staggerContainer } from '../lib/motion'
 
 interface ComingSoonProps {
@@ -148,13 +149,21 @@ export default function ComingSoon({ remainingMs }: ComingSoonProps) {
           <address className="flex items-start gap-3 not-italic leading-relaxed text-surface/80">
             <FiMapPin className="mt-1 shrink-0 text-coral" size={18} aria-hidden="true" />
             <span>
-              <span className="font-semibold text-surface">Hội Thánh Tin Lành Cây Trường</span>
+              <span className="font-semibold text-surface">{celebration.name}</span>
               <br />
-              Tổ 3, ấp Ông Chài, xã Trừ Văn Thố, TP. Hồ Chí Minh
+              {celebration.address}
+              <br />
+              <a
+                href={celebration.phoneHref}
+                className="mt-1 inline-flex items-center gap-2 font-semibold text-surface hover:text-coral"
+              >
+                <FiPhone size={15} className="text-coral" aria-hidden="true" />
+                {celebration.phone}
+              </a>
             </span>
           </address>
           <a
-            href="https://maps.app.goo.gl/kvsziDe91H6fXTVeA"
+            href={celebration.location}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary w-fit"

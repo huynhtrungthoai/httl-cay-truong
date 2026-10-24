@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { FiCalendar, FiMapPin } from 'react-icons/fi'
+import { FiCalendar, FiMapPin, FiPhone } from 'react-icons/fi'
 import program from '../../data/anniversaryProgram.json'
 import { celebration } from '../../data/event'
 import SectionHeading from '../SectionHeading'
@@ -71,7 +71,7 @@ export default function AnniversaryEvent() {
           initial="hidden"
           whileInView="visible"
           viewport={viewportOnce}
-          className="mx-auto mb-10 grid max-w-4xl gap-6 sm:grid-cols-2"
+          className="mx-auto mb-10 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
           <motion.div
             variants={fadeUp}
@@ -97,21 +97,38 @@ export default function AnniversaryEvent() {
                 Địa Điểm
               </p>
               <a
-                href={program.location.mapUrl}
+                href={celebration.location}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label={`Mở Google Maps để chỉ đường đến ${program.location.name}, ${program.location.address}`}
+                aria-label={`Mở Google Maps để chỉ đường đến ${celebration.name}, ${celebration.address}`}
                 className="group block rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
               >
                 <span className="block font-display text-lg font-semibold group-hover:text-coral">
-                  {program.location.name}
+                  {celebration.name}
                 </span>
                 <span className="mt-1 block text-sm text-surface/80 underline decoration-blue-light/70 underline-offset-4 group-hover:text-surface">
-                  {program.location.address}
+                  {celebration.address}
                 </span>
                 <span className="mt-2 block text-sm font-semibold text-coral group-hover:underline">
                   Chỉ đường trên Google Maps
                 </span>
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            variants={fadeUp}
+            className="flex items-center gap-4 rounded-2xl border border-blue-light/30 bg-navy-dark/50 p-6 backdrop-blur-sm"
+          >
+            <FiPhone className="shrink-0 text-blue-light" size={32} />
+            <div>
+              <p className="text-xs uppercase tracking-widest text-coral">
+                Liên Hệ
+              </p>
+              <a
+                href={celebration.phoneHref}
+                className="font-display text-lg font-semibold hover:text-coral focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-coral"
+              >
+                {celebration.phone}
               </a>
             </div>
           </motion.div>
