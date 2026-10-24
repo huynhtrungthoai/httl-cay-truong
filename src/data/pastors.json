@@ -43,8 +43,8 @@
     "id": 6,
     "name": "Mục sư Bùi Minh Quyền",
     "role": "Quản nhiệm",
-    "period": "Từ 26/4/2012 đến nay",
-    "bio": "Được bổ nhiệm làm Quản nhiệm Hội thánh thông qua lễ bổ nhiệm do Mục sư Điểu Huynh chủ tọa.",
+    "period": "26/4/2012 – 17/3/2021",
+    "bio": "Được bổ nhiệm làm Quản nhiệm Hội thánh thông qua lễ bổ nhiệm do Mục sư Điểu Huynh chủ tọa. Ngày 17/3/2021, ông rời Hội thánh Cây Trường để nhận nhiệm sở tại HTTL Nhơn Phú, TP. HCM.",
     "portrait": "/images/leaders/ms-buiminhquyen.webp"
   },
   {
@@ -56,11 +56,19 @@
     "portrait": "/images/leaders/ms-nguyenaben.webp"
   },
   {
+    "id": 10,
+    "name": "Mục sư Nguyễn Văn To",
+    "role": "Tạm kiêm nhiệm",
+    "period": "7/2021 – 5/2022",
+    "bio": "Tạm kiêm nhiệm Hội thánh Cây Trường trong thời gian dịch Covid-19 bùng phát, khi Hội thánh nhóm thờ phượng trực tuyến và cùng các ân nhân tương trợ tín hữu.",
+    "portrait": "N/A"
+  },
+  {
     "id": 8,
     "name": "Mục sư Nguyễn Đức",
     "role": "Phụ tá Quản nhiệm, Quản nhiệm",
-    "period": "Bổ nhiệm năm 2013",
-    "bio": "Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng. từ năm 2013, đến năm 2021 ông được bổ nhiệm làm Quản nhiệm Hội thánh Cây Trường.",
+    "period": "Từ 2013 đến nay",
+    "bio": "Từ năm 2013, ông là Phụ tá Quản nhiệm, đặc trách Điểm nhóm Tân Hưng. Ngày 18/5/2022, ông được bổ nhiệm chính thức làm Quản nhiệm Hội thánh Cây Trường.",
     "portrait": "/images/leaders/ms-nguyenduc.webp"
   },
   {

@@ -6,7 +6,8 @@ import Leaders from '../components/Leaders/Leaders'
 import Gallery from '../components/Gallery/Gallery'
 import VideoArchive from '../components/VideoArchive/VideoArchive'
 import AnniversaryEvent from '../components/AnniversaryEvent/AnniversaryEvent'
-import Tribute from '../components/Tribute/Tribute'
+// Tạm ẩn mục Tri Ân — bỏ comment để hiện lại
+// import Tribute from '../components/Tribute/Tribute'
 import Footer from '../components/Footer/Footer'
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
         <Gallery />
         <VideoArchive />
         <AnniversaryEvent />
-        <Tribute />
+        {/* <Tribute /> */}
       </main>
       <Footer />
     </div>

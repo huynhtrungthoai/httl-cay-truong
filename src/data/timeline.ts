@@ -72,6 +72,12 @@ export const timeline: TimelineEvent[] = [
       "Hội Thánh được Tổng Liên Hội công nhận là Chi Hội Tự Lập. Cùng năm, Hội Thánh mua đất và xây dựng Nhà thờ Tân Hưng, nay là Chi hội Tin Lành Tân Hưng.",
   },
   {
+    year: "2010",
+    title: "Đồng Hành Cùng Điểm Nhóm Sóc 5",
+    description:
+      "Hội Thánh biết đến và giúp đỡ anh em người Tà Mun tại Sóc 5, chủ yếu về thuộc linh, đôi khi hỗ trợ xã hội như khoan giếng. Từ năm 2017, được UBND xã Tân Hiệp cho phép, Hội Thánh tổ chức chương trình Giáng Sinh tại điểm nhóm hằng năm. Đến nay, điểm nhóm vẫn gắn bó với Hội Thánh.",
+  },
+  {
     year: "26/4/2012",
     title: "Bổ Nhiệm Quản Nhiệm",
     description:
@@ -84,10 +90,34 @@ export const timeline: TimelineEvent[] = [
       "Hội Thánh tổ chức Lễ Cảm Tạ khánh thành Nhà Nguyện Điểm Nhóm Lai Uyên trên tổng diện tích 1.000m², nhờ sự dâng hiến của con cái Chúa xa gần.",
   },
   {
-    year: "18/5/2022",
-    title: "Quản Nhiệm Đương Nhiệm",
+    year: "2016 – 2018",
+    title: "Điểm Nhóm Bàu Bàng",
     description:
-      "Ms Nguyễn Đức, Quản nhiệm HT Tân Hưng, được Tổng Liên Hội bổ nhiệm về chăn bầy chiên của Chúa tại Hội Thánh Cây Trường cho đến nay.",
+      "Từ năm 2016, Hội Thánh hỗ trợ anh em thờ phượng Chúa tại Bàu Bàng. Đầu năm 2017, UBND huyện Bàu Bàng chính thức cho phép Hội Thánh đến nhóm chung mỗi tháng một lần, đặc biệt trong các chương trình Giáng Sinh, Phục Sinh. Năm 2018, điểm nhóm được giao lại cho Chi hội Tân Hưng.",
+  },
+  {
+    year: "17/3/2021",
+    title: "Chuyển Giao Nhiệm Sở",
+    description:
+      "Ms Bùi Minh Quyền rời Hội Thánh Cây Trường, nhận nhiệm sở mới tại HTTL Nhơn Phú, TP.HCM.",
+  },
+  {
+    year: "7/2021",
+    title: "Vượt Qua Mùa Dịch Covid-19",
+    description:
+      "Dịch Covid-19 bùng phát mạnh, Hội Thánh nhóm thờ phượng trực tuyến; Ms Nguyễn Văn To tạm kiêm nhiệm. Hội Thánh cùng các ân nhân tương trợ gạo, thực phẩm cho tín hữu tại Cây Trường và Điểm nhóm Sóc 5.",
+  },
+  {
+    year: "18/5/2022",
+    title: "Lễ Bổ Nhiệm Quản Nhiệm",
+    description:
+      "Ms Nguyễn Đức, Quản nhiệm HT Tân Hưng, được Tổng Liên Hội bổ nhiệm chính thức làm Quản nhiệm Hội Thánh Cây Trường cho đến nay.",
+  },
+  {
+    year: "2023 – 2025",
+    title: "Phục Vụ Cộng Đồng",
+    description:
+      "Chương trình khám mắt, tặng kính cho tín hữu và thân hữu; tiếp tục hỗ trợ Điểm nhóm Sóc 5 trong các giờ nhóm Chúa Nhật và lễ Giáng Sinh; thăm viếng tuần hoàn và thăm viếng Tết hằng năm; Thánh Kinh Hè Thiếu nhi – Thiếu niên hằng năm, hỗ trợ Thánh Kinh Hè tại Điểm nhóm Bà Cang 5 từ năm 2024 đến nay, và Truyền Giảng Giáng Sinh 2025 do Ban Thanh niên tổ chức.",
   },
   {
     year: "2026",

@@ -8,7 +8,7 @@ export default function Hero() {
   const { scrollY } = useScroll();
   // Parallax: background drifts slower than the scroll.
   const y = useTransform(scrollY, [0, 600], [0, 160]);
-  const overlayOpacity = useTransform(scrollY, [0, 500], [0.55, 0.85]);
+  const overlayOpacity = useTransform(scrollY, [0, 500], [0.8, 0.95]);
 
   const scrollTo = (id: string) =>
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -35,6 +35,8 @@ export default function Hero() {
         style={{ opacity: overlayOpacity }}
         className="absolute inset-0 -z-10 bg-gradient-to-b from-navy-dark/70 via-navy-dark/60 to-navy-dark/90"
       />
+      {/* Center vignette so the copy stays legible over the bright photo */}
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgba(8,42,85,0.7)_0%,rgba(8,42,85,0.35)_45%,transparent_75%)]" />
 
       <div className="container-narrow px-6 text-center">
         <motion.p
@@ -50,7 +52,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.9 }}
-          className="mx-auto max-w-4xl font-display text-4xl font-bold leading-tight text-surface sm:text-5xl md:text-6xl lg:text-7xl"
+          className="mx-auto max-w-4xl font-display text-4xl font-bold leading-tight text-white [text-shadow:0_4px_20px_rgba(0,0,0,0.55)] sm:text-5xl md:text-6xl lg:text-7xl"
         >
           Kỷ Niệm <span className="text-accent">50 Năm</span>
           <br />
@@ -61,14 +63,14 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.9, duration: 1 }}
-          className="mx-auto mt-8 max-w-2xl"
+          className="mx-auto mt-8 max-w-2xl rounded-2xl border border-surface/15 bg-navy-dark/60 px-6 py-5 shadow-elegant backdrop-blur-md md:px-10 md:py-6"
         >
-          <p className="font-serif text-xl italic text-surface/90 md:text-2xl">
+          <p className="font-serif text-xl font-medium italic leading-relaxed text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.6)] md:text-2xl">
             “Hãy cảm tạ Đức Giê-hô-va, vì Ngài là thiện;
             <br className="hidden sm:block" /> sự nhân từ Ngài còn đến đời đời.”
           </p>
-          <p className="mt-2 text-sm font-semibold uppercase tracking-widest text-coral drop-shadow-sm">
-            Thi Thiên 107:1
+          <p className="mt-3 text-sm font-bold uppercase tracking-widest text-coral [text-shadow:0_1px_4px_rgba(0,0,0,0.6)]">
+            — Thi Thiên 107:1
           </p>
         </motion.div>
 

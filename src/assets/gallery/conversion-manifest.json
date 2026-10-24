@@ -1,0 +1,1928 @@
+{
+  "settings": {
+    "format": "WebP",
+    "quality": 82,
+    "max_side_px": 2000
+  },
+  "images": [
+    {
+      "source": "1005 Adobe Scan 7 Aug 2026 (1).png",
+      "output": "1005 Adobe Scan 7 Aug 2026 (1).webp",
+      "source_bytes": 2786270,
+      "output_bytes": 203870,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "1791260763169_1084442557143795285_1084442557143795285_9e9f8ac0795d45d6b4456b7737beab0c.jpg",
+      "output": "1791260763169_1084442557143795285_1084442557143795285_9e9f8ac0795d45d6b4456b7737beab0c.webp",
+      "source_bytes": 561655,
+      "output_bytes": 334918,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791260821196_1084442557143795285_1084442557143795285_0d99b4e48516d4b30cc69316a860dfdd.jpg",
+      "output": "1791260821196_1084442557143795285_1084442557143795285_0d99b4e48516d4b30cc69316a860dfdd.webp",
+      "source_bytes": 339435,
+      "output_bytes": 152060,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791260835394_1084442557143795285_1084442557143795285_87ad1069bf9300aefa8a0a7442e13b64.jpg",
+      "output": "1791260835394_1084442557143795285_1084442557143795285_87ad1069bf9300aefa8a0a7442e13b64.webp",
+      "source_bytes": 605059,
+      "output_bytes": 266926,
+      "original_dimensions": [
+        934,
+        1280
+      ],
+      "output_dimensions": [
+        934,
+        1280
+      ]
+    },
+    {
+      "source": "1791260902080_1084442557143795285_1084442557143795285_e1ead930af894a5d7a02d34c57c22d52.jpg",
+      "output": "1791260902080_1084442557143795285_1084442557143795285_e1ead930af894a5d7a02d34c57c22d52.webp",
+      "source_bytes": 451928,
+      "output_bytes": 241740,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791261259883_1084442557143795285_1084442557143795285_d8892794a2f55af87195ecc4b4d63fdf.jpg",
+      "output": "1791261259883_1084442557143795285_1084442557143795285_d8892794a2f55af87195ecc4b4d63fdf.webp",
+      "source_bytes": 420568,
+      "output_bytes": 202980,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791261598668_1084442557143795285_1084442557143795285_e49cd3249d7c5caff5544cc94e6b760c.jpg",
+      "output": "1791261598668_1084442557143795285_1084442557143795285_e49cd3249d7c5caff5544cc94e6b760c.webp",
+      "source_bytes": 442984,
+      "output_bytes": 223096,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791261670383_1084442557143795285_1084442557143795285_25cc59235122485cf00b80bb36599144.jpg",
+      "output": "1791261670383_1084442557143795285_1084442557143795285_25cc59235122485cf00b80bb36599144.webp",
+      "source_bytes": 256155,
+      "output_bytes": 96808,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791262074730_1084442557143795285_1084442557143795285_25a3bb68d32ea98bcd9061b4369b2a82.jpg",
+      "output": "1791262074730_1084442557143795285_1084442557143795285_25a3bb68d32ea98bcd9061b4369b2a82.webp",
+      "source_bytes": 416662,
+      "output_bytes": 209476,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791291709467_1084442557143795285_1084442557143795285_75604f4d1cd58aad1bd8a9579a0a78d8.jpg",
+      "output": "1791291709467_1084442557143795285_1084442557143795285_75604f4d1cd58aad1bd8a9579a0a78d8.webp",
+      "source_bytes": 374272,
+      "output_bytes": 171684,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791291875680_1084442557143795285_1084442557143795285_1f602be9a949877e2eca87796c7b3ee9.jpg",
+      "output": "1791291875680_1084442557143795285_1084442557143795285_1f602be9a949877e2eca87796c7b3ee9.webp",
+      "source_bytes": 552680,
+      "output_bytes": 224414,
+      "original_dimensions": [
+        960,
+        1280
+      ],
+      "output_dimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "1791291894325_1084442557143795285_1084442557143795285_51a4b4241a11539df7449d81ab2ee66a.jpg",
+      "output": "1791291894325_1084442557143795285_1084442557143795285_51a4b4241a11539df7449d81ab2ee66a.webp",
+      "source_bytes": 520429,
+      "output_bytes": 198272,
+      "original_dimensions": [
+        960,
+        1280
+      ],
+      "output_dimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "1791291928314_1084442557143795285_1084442557143795285_076aaa9192b4ddbac43eee69e2e58727.jpg",
+      "output": "1791291928314_1084442557143795285_1084442557143795285_076aaa9192b4ddbac43eee69e2e58727.webp",
+      "source_bytes": 360239,
+      "output_bytes": 166320,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292082984_1084442557143795285_1084442557143795285_907b813a8af441f6e0397ddcc9b83b4f.jpg",
+      "output": "1791292082984_1084442557143795285_1084442557143795285_907b813a8af441f6e0397ddcc9b83b4f.webp",
+      "source_bytes": 393745,
+      "output_bytes": 191434,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292169252_1084442557143795285_1084442557143795285_67f48e756ec58dfcb6b9fbded33a5436.jpg",
+      "output": "1791292169252_1084442557143795285_1084442557143795285_67f48e756ec58dfcb6b9fbded33a5436.webp",
+      "source_bytes": 416739,
+      "output_bytes": 214378,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292194088_1084442557143795285_1084442557143795285_e52cf650403f7f9f2ab05b389068232e.jpg",
+      "output": "1791292194088_1084442557143795285_1084442557143795285_e52cf650403f7f9f2ab05b389068232e.webp",
+      "source_bytes": 341621,
+      "output_bytes": 157204,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292297312_1084442557143795285_1084442557143795285_bc07891eb4d3f393d2fa2238d5ec24dc.jpg",
+      "output": "1791292297312_1084442557143795285_1084442557143795285_bc07891eb4d3f393d2fa2238d5ec24dc.webp",
+      "source_bytes": 323041,
+      "output_bytes": 130684,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292318474_1084442557143795285_1084442557143795285_b342abd7865e2926e2720738c404c180.jpg",
+      "output": "1791292318474_1084442557143795285_1084442557143795285_b342abd7865e2926e2720738c404c180.webp",
+      "source_bytes": 551729,
+      "output_bytes": 328172,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292422238_1084442557143795285_1084442557143795285_a47aabbc82ab37c484da6c99fdf97a98.jpg",
+      "output": "1791292422238_1084442557143795285_1084442557143795285_a47aabbc82ab37c484da6c99fdf97a98.webp",
+      "source_bytes": 371154,
+      "output_bytes": 173436,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292476977_1084442557143795285_1084442557143795285_e897454bd9abb8282421d192d21814f1.jpg",
+      "output": "1791292476977_1084442557143795285_1084442557143795285_e897454bd9abb8282421d192d21814f1.webp",
+      "source_bytes": 557911,
+      "output_bytes": 329026,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292491576_1084442557143795285_1084442557143795285_2f33a2ac156813eb3d0513292e401105.jpg",
+      "output": "1791292491576_1084442557143795285_1084442557143795285_2f33a2ac156813eb3d0513292e401105.webp",
+      "source_bytes": 561655,
+      "output_bytes": 334918,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292676214_1084442557143795285_1084442557143795285_df4538df8642fe8fe318265ba1a0a398.jpg",
+      "output": "1791292676214_1084442557143795285_1084442557143795285_df4538df8642fe8fe318265ba1a0a398.webp",
+      "source_bytes": 479296,
+      "output_bytes": 174446,
+      "original_dimensions": [
+        960,
+        1280
+      ],
+      "output_dimensions": [
+        960,
+        1280
+      ]
+    },
+    {
+      "source": "1791292719349_1084442557143795285_1084442557143795285_f40bf87fc828e7434cee4a404e372f5a.jpg",
+      "output": "1791292719349_1084442557143795285_1084442557143795285_f40bf87fc828e7434cee4a404e372f5a.webp",
+      "source_bytes": 387399,
+      "output_bytes": 188220,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292920009_1084442557143795285_1084442557143795285_0b389bc19c90b8d2d3c9858715859a98.jpg",
+      "output": "1791292920009_1084442557143795285_1084442557143795285_0b389bc19c90b8d2d3c9858715859a98.webp",
+      "source_bytes": 321633,
+      "output_bytes": 143112,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292941332_1084442557143795285_1084442557143795285_90f7c9e5cde5d715f0399ded3df29eac.jpg",
+      "output": "1791292941332_1084442557143795285_1084442557143795285_90f7c9e5cde5d715f0399ded3df29eac.webp",
+      "source_bytes": 339436,
+      "output_bytes": 150318,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791292994447_1084442557143795285_1084442557143795285_9d0d8d4294b81b945ca687f754a2cca8.jpg",
+      "output": "1791292994447_1084442557143795285_1084442557143795285_9d0d8d4294b81b945ca687f754a2cca8.webp",
+      "source_bytes": 360641,
+      "output_bytes": 156184,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293103086_1084442557143795285_1084442557143795285_f43ec10e81bae63026924b0be3b2586f.jpg",
+      "output": "1791293103086_1084442557143795285_1084442557143795285_f43ec10e81bae63026924b0be3b2586f.webp",
+      "source_bytes": 306682,
+      "output_bytes": 136880,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293282283_1084442557143795285_1084442557143795285_2e22ec6053f45528b7c36f364b727534.jpg",
+      "output": "1791293282283_1084442557143795285_1084442557143795285_2e22ec6053f45528b7c36f364b727534.webp",
+      "source_bytes": 353563,
+      "output_bytes": 151130,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293301188_1084442557143795285_1084442557143795285_63ea0f0448e1961fd4fe03c3258af91b.jpg",
+      "output": "1791293301188_1084442557143795285_1084442557143795285_63ea0f0448e1961fd4fe03c3258af91b.webp",
+      "source_bytes": 454779,
+      "output_bytes": 161244,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293385352_1084442557143795285_1084442557143795285_a184f8d27d277c33ed266e9fc2ba4222.jpg",
+      "output": "1791293385352_1084442557143795285_1084442557143795285_a184f8d27d277c33ed266e9fc2ba4222.webp",
+      "source_bytes": 430739,
+      "output_bytes": 216326,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293402323_1084442557143795285_1084442557143795285_c87619ad98274293b1add9de31218a11.jpg",
+      "output": "1791293402323_1084442557143795285_1084442557143795285_c87619ad98274293b1add9de31218a11.webp",
+      "source_bytes": 420381,
+      "output_bytes": 204978,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293575209_1084442557143795285_1084442557143795285_8a4a19e36e696456ca26ff6b24fba793.jpg",
+      "output": "1791293575209_1084442557143795285_1084442557143795285_8a4a19e36e696456ca26ff6b24fba793.webp",
+      "source_bytes": 345367,
+      "output_bytes": 159004,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293616473_1084442557143795285_1084442557143795285_c8f23ecc148fcbf87a33267b06a9ea3a.jpg",
+      "output": "1791293616473_1084442557143795285_1084442557143795285_c8f23ecc148fcbf87a33267b06a9ea3a.webp",
+      "source_bytes": 351182,
+      "output_bytes": 157092,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791293935418_1084442557143795285_1084442557143795285_622f957c8c6c106a5d985507b4208c56.jpg",
+      "output": "1791293935418_1084442557143795285_1084442557143795285_622f957c8c6c106a5d985507b4208c56.webp",
+      "source_bytes": 377953,
+      "output_bytes": 182420,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791296102926_1084442557143795285_1084442557143795285_34b6f70a9bb976cfca1dcfd83755cf35.jpg",
+      "output": "1791296102926_1084442557143795285_1084442557143795285_34b6f70a9bb976cfca1dcfd83755cf35.webp",
+      "source_bytes": 632244,
+      "output_bytes": 289600,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791296498658_1084442557143795285_1084442557143795285_1eabfa63bf1d40767fb46e58f11720dc.jpg",
+      "output": "1791296498658_1084442557143795285_1084442557143795285_1eabfa63bf1d40767fb46e58f11720dc.webp",
+      "source_bytes": 371839,
+      "output_bytes": 175424,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791296830514_1084442557143795285_1084442557143795285_717d9dd7d80253c6c0fc5d52cd2d5610.jpg",
+      "output": "1791296830514_1084442557143795285_1084442557143795285_717d9dd7d80253c6c0fc5d52cd2d5610.webp",
+      "source_bytes": 321633,
+      "output_bytes": 143112,
+      "original_dimensions": [
+        1280,
+        960
+      ],
+      "output_dimensions": [
+        1280,
+        960
+      ]
+    },
+    {
+      "source": "1791422077508_1084442557143795285_1084442557143795285_18356f59310eb44340a958a37b207fdb.jpg",
+      "output": "1791422077508_1084442557143795285_1084442557143795285_18356f59310eb44340a958a37b207fdb.webp",
+      "source_bytes": 210850,
+      "output_bytes": 104894,
+      "original_dimensions": [
+        1280,
+        621
+      ],
+      "output_dimensions": [
+        1280,
+        621
+      ]
+    },
+    {
+      "source": "1791422151365_1084442557143795285_1084442557143795285_084303036a581326263d296c6eeb8de8.jpg",
+      "output": "1791422151365_1084442557143795285_1084442557143795285_084303036a581326263d296c6eeb8de8.webp",
+      "source_bytes": 209105,
+      "output_bytes": 106080,
+      "original_dimensions": [
+        1280,
+        621
+      ],
+      "output_dimensions": [
+        1280,
+        621
+      ]
+    },
+    {
+      "source": "1791422161063_1084442557143795285_1084442557143795285_73bf90fabfdbce5e225aa1b529a5b6cd.jpg",
+      "output": "1791422161063_1084442557143795285_1084442557143795285_73bf90fabfdbce5e225aa1b529a5b6cd.webp",
+      "source_bytes": 186511,
+      "output_bytes": 94348,
+      "original_dimensions": [
+        1280,
+        621
+      ],
+      "output_dimensions": [
+        1280,
+        621
+      ]
+    },
+    {
+      "source": "1970 Adobe Scan 24 Sep 2026 (10) (1).png",
+      "output": "1970 Adobe Scan 24 Sep 2026 (10) (1).webp",
+      "source_bytes": 2614313,
+      "output_bytes": 206898,
+      "original_dimensions": [
+        2323,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1423
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH - ĐN.LU.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH - ĐN.LU.webp",
+      "source_bytes": 1710295,
+      "output_bytes": 146762,
+      "original_dimensions": [
+        2339,
+        1620
+      ],
+      "output_dimensions": [
+        2000,
+        1385
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 01.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 01.webp",
+      "source_bytes": 2171938,
+      "output_bytes": 162766,
+      "original_dimensions": [
+        2339,
+        1414
+      ],
+      "output_dimensions": [
+        2000,
+        1209
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 02.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 02.webp",
+      "source_bytes": 2219945,
+      "output_bytes": 176002,
+      "original_dimensions": [
+        2339,
+        1587
+      ],
+      "output_dimensions": [
+        2000,
+        1357
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 03.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 03.webp",
+      "source_bytes": 3124763,
+      "output_bytes": 239702,
+      "original_dimensions": [
+        2339,
+        1592
+      ],
+      "output_dimensions": [
+        2000,
+        1361
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 06.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 06.webp",
+      "source_bytes": 2319552,
+      "output_bytes": 177866,
+      "original_dimensions": [
+        2339,
+        1475
+      ],
+      "output_dimensions": [
+        2000,
+        1261
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 09.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 09.webp",
+      "source_bytes": 3066051,
+      "output_bytes": 234332,
+      "original_dimensions": [
+        2339,
+        1620
+      ],
+      "output_dimensions": [
+        2000,
+        1385
+      ]
+    },
+    {
+      "source": "1995[GĐ2] MS. NGUYEN NGOC THANH 10.png",
+      "output": "1995[GĐ2] MS. NGUYEN NGOC THANH 10.webp",
+      "source_bytes": 2935341,
+      "output_bytes": 253280,
+      "original_dimensions": [
+        2317,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1427
+      ]
+    },
+    {
+      "source": "1995[GĐ2] Thieu nhi.png",
+      "output": "1995[GĐ2] Thieu nhi.webp",
+      "source_bytes": 2661323,
+      "output_bytes": 214968,
+      "original_dimensions": [
+        2339,
+        1603
+      ],
+      "output_dimensions": [
+        2000,
+        1371
+      ]
+    },
+    {
+      "source": "2000 Adobe Scan 7 Aug 2026 (6) (1).png",
+      "output": "2000 Adobe Scan 7 Aug 2026 (6) (1).webp",
+      "source_bytes": 2631222,
+      "output_bytes": 198014,
+      "original_dimensions": [
+        2339,
+        1609
+      ],
+      "output_dimensions": [
+        2000,
+        1376
+      ]
+    },
+    {
+      "source": "2002 Adobe Scan 7 Aug 2026 (50).png",
+      "output": "2002 Adobe Scan 7 Aug 2026 (50).webp",
+      "source_bytes": 3751411,
+      "output_bytes": 316456,
+      "original_dimensions": [
+        2339,
+        1453
+      ],
+      "output_dimensions": [
+        2000,
+        1242
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 27 Jul 2026.png",
+      "output": "2005 Adobe Scan 27 Jul 2026.webp",
+      "source_bytes": 4032921,
+      "output_bytes": 325476,
+      "original_dimensions": [
+        2339,
+        1592
+      ],
+      "output_dimensions": [
+        2000,
+        1361
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 7 Aug 2026 (1) (1).png",
+      "output": "2005 Adobe Scan 7 Aug 2026 (1) (1).webp",
+      "source_bytes": 3150824,
+      "output_bytes": 241420,
+      "original_dimensions": [
+        2317,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1427
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 7 Aug 2026 (12).png",
+      "output": "2005 Adobe Scan 7 Aug 2026 (12).webp",
+      "source_bytes": 2597261,
+      "output_bytes": 217136,
+      "original_dimensions": [
+        2339,
+        1487
+      ],
+      "output_dimensions": [
+        2000,
+        1271
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 7 Aug 2026 (21).png",
+      "output": "2005 Adobe Scan 7 Aug 2026 (21).webp",
+      "source_bytes": 3004488,
+      "output_bytes": 245790,
+      "original_dimensions": [
+        2339,
+        1414
+      ],
+      "output_dimensions": [
+        2000,
+        1209
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 7 Aug 2026 (4) (1).png",
+      "output": "2005 Adobe Scan 7 Aug 2026 (4) (1).webp",
+      "source_bytes": 2431137,
+      "output_bytes": 208038,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "2005 Adobe Scan 7 Aug 2026 (49).png",
+      "output": "2005 Adobe Scan 7 Aug 2026 (49).webp",
+      "source_bytes": 2692632,
+      "output_bytes": 239200,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (1) (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (1) (1).webp",
+      "source_bytes": 1949477,
+      "output_bytes": 150002,
+      "original_dimensions": [
+        2339,
+        1553
+      ],
+      "output_dimensions": [
+        2000,
+        1328
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (1) (2).png",
+      "output": "Adobe Scan 24 Sep 2026 (1) (2).webp",
+      "source_bytes": 2075563,
+      "output_bytes": 179084,
+      "original_dimensions": [
+        2339,
+        1464
+      ],
+      "output_dimensions": [
+        2000,
+        1252
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (1).webp",
+      "source_bytes": 3074881,
+      "output_bytes": 240258,
+      "original_dimensions": [
+        2339,
+        1509
+      ],
+      "output_dimensions": [
+        2000,
+        1290
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (10) (2).png",
+      "output": "Adobe Scan 24 Sep 2026 (10) (2).webp",
+      "source_bytes": 1977715,
+      "output_bytes": 152364,
+      "original_dimensions": [
+        2339,
+        1581
+      ],
+      "output_dimensions": [
+        2000,
+        1352
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (10).png",
+      "output": "Adobe Scan 24 Sep 2026 (10).webp",
+      "source_bytes": 1418840,
+      "output_bytes": 109672,
+      "original_dimensions": [
+        2339,
+        1553
+      ],
+      "output_dimensions": [
+        2000,
+        1328
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (18).png",
+      "output": "Adobe Scan 24 Sep 2026 (18).webp",
+      "source_bytes": 1925659,
+      "output_bytes": 160776,
+      "original_dimensions": [
+        1514,
+        2339
+      ],
+      "output_dimensions": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (19).png",
+      "output": "Adobe Scan 24 Sep 2026 (19).webp",
+      "source_bytes": 1667992,
+      "output_bytes": 138624,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (3) (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (3) (1).webp",
+      "source_bytes": 2875656,
+      "output_bytes": 262636,
+      "original_dimensions": [
+        2273,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1454
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (3) (2).png",
+      "output": "Adobe Scan 24 Sep 2026 (3) (2).webp",
+      "source_bytes": 2174155,
+      "output_bytes": 182444,
+      "original_dimensions": [
+        1609,
+        2339
+      ],
+      "output_dimensions": [
+        1376,
+        2000
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (3) (3).png",
+      "output": "Adobe Scan 24 Sep 2026 (3) (3).webp",
+      "source_bytes": 3088639,
+      "output_bytes": 233414,
+      "original_dimensions": [
+        2342,
+        1575
+      ],
+      "output_dimensions": [
+        2000,
+        1345
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (4) (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (4) (1).webp",
+      "source_bytes": 1446318,
+      "output_bytes": 119464,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (4) (3).png",
+      "output": "Adobe Scan 24 Sep 2026 (4) (3).webp",
+      "source_bytes": 2236386,
+      "output_bytes": 184138,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (4).png",
+      "output": "Adobe Scan 24 Sep 2026 (4).webp",
+      "source_bytes": 2210736,
+      "output_bytes": 185618,
+      "original_dimensions": [
+        2339,
+        1548
+      ],
+      "output_dimensions": [
+        2000,
+        1324
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (5) (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (5) (1).webp",
+      "source_bytes": 2067353,
+      "output_bytes": 173080,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (5) (3).png",
+      "output": "Adobe Scan 24 Sep 2026 (5) (3).webp",
+      "source_bytes": 2816127,
+      "output_bytes": 230474,
+      "original_dimensions": [
+        2339,
+        1537
+      ],
+      "output_dimensions": [
+        2000,
+        1314
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (5).png",
+      "output": "Adobe Scan 24 Sep 2026 (5).webp",
+      "source_bytes": 2091622,
+      "output_bytes": 160580,
+      "original_dimensions": [
+        2339,
+        1531
+      ],
+      "output_dimensions": [
+        2000,
+        1309
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (6) (1).png",
+      "output": "Adobe Scan 24 Sep 2026 (6) (1).webp",
+      "source_bytes": 2376630,
+      "output_bytes": 191530,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (6) (2).png",
+      "output": "Adobe Scan 24 Sep 2026 (6) (2).webp",
+      "source_bytes": 2480907,
+      "output_bytes": 210830,
+      "original_dimensions": [
+        2339,
+        1503
+      ],
+      "output_dimensions": [
+        2000,
+        1285
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (6).png",
+      "output": "Adobe Scan 24 Sep 2026 (6).webp",
+      "source_bytes": 2015724,
+      "output_bytes": 164754,
+      "original_dimensions": [
+        2339,
+        1342
+      ],
+      "output_dimensions": [
+        2000,
+        1147
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (7).png",
+      "output": "Adobe Scan 24 Sep 2026 (7).webp",
+      "source_bytes": 1920580,
+      "output_bytes": 167686,
+      "original_dimensions": [
+        2342,
+        1537
+      ],
+      "output_dimensions": [
+        2000,
+        1313
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026 (9).png",
+      "output": "Adobe Scan 24 Sep 2026 (9).webp",
+      "source_bytes": 2020895,
+      "output_bytes": 146944,
+      "original_dimensions": [
+        2339,
+        1509
+      ],
+      "output_dimensions": [
+        2000,
+        1290
+      ]
+    },
+    {
+      "source": "Adobe Scan 24 Sep 2026.png",
+      "output": "Adobe Scan 24 Sep 2026.webp",
+      "source_bytes": 2496231,
+      "output_bytes": 184530,
+      "original_dimensions": [
+        2339,
+        1525
+      ],
+      "output_dimensions": [
+        2000,
+        1304
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (10).png",
+      "output": "Adobe Scan 7 Aug 2026 (10).webp",
+      "source_bytes": 1821706,
+      "output_bytes": 133442,
+      "original_dimensions": [
+        2339,
+        1581
+      ],
+      "output_dimensions": [
+        2000,
+        1352
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (11).png",
+      "output": "Adobe Scan 7 Aug 2026 (11).webp",
+      "source_bytes": 2519126,
+      "output_bytes": 203352,
+      "original_dimensions": [
+        2339,
+        1509
+      ],
+      "output_dimensions": [
+        2000,
+        1290
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (16).png",
+      "output": "Adobe Scan 7 Aug 2026 (16).webp",
+      "source_bytes": 2608262,
+      "output_bytes": 215054,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (17).png",
+      "output": "Adobe Scan 7 Aug 2026 (17).webp",
+      "source_bytes": 2620434,
+      "output_bytes": 196392,
+      "original_dimensions": [
+        2339,
+        1542
+      ],
+      "output_dimensions": [
+        2000,
+        1319
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (2) (1).png",
+      "output": "Adobe Scan 7 Aug 2026 (2) (1).webp",
+      "source_bytes": 2853065,
+      "output_bytes": 237446,
+      "original_dimensions": [
+        2339,
+        1548
+      ],
+      "output_dimensions": [
+        2000,
+        1324
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (20).png",
+      "output": "Adobe Scan 7 Aug 2026 (20).webp",
+      "source_bytes": 2006400,
+      "output_bytes": 168128,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (25).png",
+      "output": "Adobe Scan 7 Aug 2026 (25).webp",
+      "source_bytes": 3750839,
+      "output_bytes": 294532,
+      "original_dimensions": [
+        2339,
+        1620
+      ],
+      "output_dimensions": [
+        2000,
+        1385
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (26).png",
+      "output": "Adobe Scan 7 Aug 2026 (26).webp",
+      "source_bytes": 1912949,
+      "output_bytes": 142190,
+      "original_dimensions": [
+        2339,
+        1414
+      ],
+      "output_dimensions": [
+        2000,
+        1209
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (27).png",
+      "output": "Adobe Scan 7 Aug 2026 (27).webp",
+      "source_bytes": 3204422,
+      "output_bytes": 272586,
+      "original_dimensions": [
+        2339,
+        1448
+      ],
+      "output_dimensions": [
+        2000,
+        1238
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (28).png",
+      "output": "Adobe Scan 7 Aug 2026 (28).webp",
+      "source_bytes": 3547246,
+      "output_bytes": 281044,
+      "original_dimensions": [
+        2339,
+        1514
+      ],
+      "output_dimensions": [
+        2000,
+        1295
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (30).png",
+      "output": "Adobe Scan 7 Aug 2026 (30).webp",
+      "source_bytes": 1823096,
+      "output_bytes": 121820,
+      "original_dimensions": [
+        2339,
+        1470
+      ],
+      "output_dimensions": [
+        2000,
+        1257
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (31).png",
+      "output": "Adobe Scan 7 Aug 2026 (31).webp",
+      "source_bytes": 1721702,
+      "output_bytes": 131572,
+      "original_dimensions": [
+        2339,
+        1220
+      ],
+      "output_dimensions": [
+        2000,
+        1043
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (32).png",
+      "output": "Adobe Scan 7 Aug 2026 (32).webp",
+      "source_bytes": 1864515,
+      "output_bytes": 157142,
+      "original_dimensions": [
+        2339,
+        1464
+      ],
+      "output_dimensions": [
+        2000,
+        1252
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (33).png",
+      "output": "Adobe Scan 7 Aug 2026 (33).webp",
+      "source_bytes": 1694895,
+      "output_bytes": 127632,
+      "original_dimensions": [
+        2339,
+        1381
+      ],
+      "output_dimensions": [
+        2000,
+        1181
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (36).png",
+      "output": "Adobe Scan 7 Aug 2026 (36).webp",
+      "source_bytes": 2262719,
+      "output_bytes": 153922,
+      "original_dimensions": [
+        2339,
+        1509
+      ],
+      "output_dimensions": [
+        2000,
+        1290
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (37).png",
+      "output": "Adobe Scan 7 Aug 2026 (37).webp",
+      "source_bytes": 2840484,
+      "output_bytes": 235540,
+      "original_dimensions": [
+        2339,
+        1542
+      ],
+      "output_dimensions": [
+        2000,
+        1319
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (4).png",
+      "output": "Adobe Scan 7 Aug 2026 (4).webp",
+      "source_bytes": 2899890,
+      "output_bytes": 221242,
+      "original_dimensions": [
+        2339,
+        1637
+      ],
+      "output_dimensions": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (5) (1).png",
+      "output": "Adobe Scan 7 Aug 2026 (5) (1).webp",
+      "source_bytes": 2614836,
+      "output_bytes": 229198,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (5).png",
+      "output": "Adobe Scan 7 Aug 2026 (5).webp",
+      "source_bytes": 1983970,
+      "output_bytes": 166930,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (51).png",
+      "output": "Adobe Scan 7 Aug 2026 (51).webp",
+      "source_bytes": 1514714,
+      "output_bytes": 116718,
+      "original_dimensions": [
+        2339,
+        1398
+      ],
+      "output_dimensions": [
+        2000,
+        1195
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (52).png",
+      "output": "Adobe Scan 7 Aug 2026 (52).webp",
+      "source_bytes": 1898507,
+      "output_bytes": 146394,
+      "original_dimensions": [
+        2339,
+        1448
+      ],
+      "output_dimensions": [
+        2000,
+        1238
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (53).png",
+      "output": "Adobe Scan 7 Aug 2026 (53).webp",
+      "source_bytes": 2255993,
+      "output_bytes": 172288,
+      "original_dimensions": [
+        2339,
+        1459
+      ],
+      "output_dimensions": [
+        2000,
+        1248
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (54).png",
+      "output": "Adobe Scan 7 Aug 2026 (54).webp",
+      "source_bytes": 2775320,
+      "output_bytes": 159242,
+      "original_dimensions": [
+        2339,
+        1442
+      ],
+      "output_dimensions": [
+        2000,
+        1233
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (55).png",
+      "output": "Adobe Scan 7 Aug 2026 (55).webp",
+      "source_bytes": 2362484,
+      "output_bytes": 179014,
+      "original_dimensions": [
+        2317,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1427
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (56).png",
+      "output": "Adobe Scan 7 Aug 2026 (56).webp",
+      "source_bytes": 2416445,
+      "output_bytes": 200362,
+      "original_dimensions": [
+        2339,
+        1553
+      ],
+      "output_dimensions": [
+        2000,
+        1328
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (57).png",
+      "output": "Adobe Scan 7 Aug 2026 (57).webp",
+      "source_bytes": 2225377,
+      "output_bytes": 190018,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (58).png",
+      "output": "Adobe Scan 7 Aug 2026 (58).webp",
+      "source_bytes": 1834464,
+      "output_bytes": 137210,
+      "original_dimensions": [
+        2339,
+        1542
+      ],
+      "output_dimensions": [
+        2000,
+        1319
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (59).png",
+      "output": "Adobe Scan 7 Aug 2026 (59).webp",
+      "source_bytes": 3850696,
+      "output_bytes": 307466,
+      "original_dimensions": [
+        2339,
+        1509
+      ],
+      "output_dimensions": [
+        2000,
+        1290
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (6).png",
+      "output": "Adobe Scan 7 Aug 2026 (6).webp",
+      "source_bytes": 2665016,
+      "output_bytes": 212550,
+      "original_dimensions": [
+        2339,
+        1464
+      ],
+      "output_dimensions": [
+        2000,
+        1252
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (60).png",
+      "output": "Adobe Scan 7 Aug 2026 (60).webp",
+      "source_bytes": 2918106,
+      "output_bytes": 221330,
+      "original_dimensions": [
+        2339,
+        1464
+      ],
+      "output_dimensions": [
+        2000,
+        1252
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (61).png",
+      "output": "Adobe Scan 7 Aug 2026 (61).webp",
+      "source_bytes": 1718776,
+      "output_bytes": 142922,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (62).png",
+      "output": "Adobe Scan 7 Aug 2026 (62).webp",
+      "source_bytes": 3236767,
+      "output_bytes": 254526,
+      "original_dimensions": [
+        2339,
+        1525
+      ],
+      "output_dimensions": [
+        2000,
+        1304
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (7) (1).png",
+      "output": "Adobe Scan 7 Aug 2026 (7) (1).webp",
+      "source_bytes": 2666994,
+      "output_bytes": 207190,
+      "original_dimensions": [
+        2339,
+        1620
+      ],
+      "output_dimensions": [
+        2000,
+        1385
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (7).png",
+      "output": "Adobe Scan 7 Aug 2026 (7).webp",
+      "source_bytes": 2232862,
+      "output_bytes": 173482,
+      "original_dimensions": [
+        2339,
+        1520
+      ],
+      "output_dimensions": [
+        2000,
+        1300
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (8) (1).png",
+      "output": "Adobe Scan 7 Aug 2026 (8) (1).webp",
+      "source_bytes": 2575416,
+      "output_bytes": 194046,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (8).png",
+      "output": "Adobe Scan 7 Aug 2026 (8).webp",
+      "source_bytes": 2297680,
+      "output_bytes": 193838,
+      "original_dimensions": [
+        2339,
+        1464
+      ],
+      "output_dimensions": [
+        2000,
+        1252
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026 (9).png",
+      "output": "Adobe Scan 7 Aug 2026 (9).webp",
+      "source_bytes": 3239356,
+      "output_bytes": 257704,
+      "original_dimensions": [
+        2339,
+        1609
+      ],
+      "output_dimensions": [
+        2000,
+        1376
+      ]
+    },
+    {
+      "source": "Adobe Scan 7 Aug 2026.png",
+      "output": "Adobe Scan 7 Aug 2026.webp",
+      "source_bytes": 2283263,
+      "output_bytes": 174074,
+      "original_dimensions": [
+        2339,
+        1303
+      ],
+      "output_dimensions": [
+        2000,
+        1114
+      ]
+    },
+    {
+      "source": "MS Thanh gio tho phuong.png",
+      "output": "MS Thanh gio tho phuong.webp",
+      "source_bytes": 2226574,
+      "output_bytes": 184444,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "TĐ. ĐTT 01.png",
+      "output": "TĐ. ĐTT 01.webp",
+      "source_bytes": 3644270,
+      "output_bytes": 245588,
+      "original_dimensions": [
+        2339,
+        1603
+      ],
+      "output_dimensions": [
+        2000,
+        1371
+      ]
+    },
+    {
+      "source": "TĐ. ĐTT 02.png",
+      "output": "TĐ. ĐTT 02.webp",
+      "source_bytes": 2660074,
+      "output_bytes": 231046,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "TĐ. Đỗ Trung Tín.png",
+      "output": "TĐ. Đỗ Trung Tín.webp",
+      "source_bytes": 2229763,
+      "output_bytes": 192132,
+      "original_dimensions": [
+        1514,
+        2339
+      ],
+      "output_dimensions": [
+        1295,
+        2000
+      ]
+    },
+    {
+      "source": "[GĐ1] gio tho phuong 01.png",
+      "output": "[GĐ1] gio tho phuong 01.webp",
+      "source_bytes": 1979323,
+      "output_bytes": 162758,
+      "original_dimensions": [
+        2339,
+        1542
+      ],
+      "output_dimensions": [
+        2000,
+        1319
+      ]
+    },
+    {
+      "source": "[GĐ1] gio tho phuong 03.png",
+      "output": "[GĐ1] gio tho phuong 03.webp",
+      "source_bytes": 1720331,
+      "output_bytes": 136940,
+      "original_dimensions": [
+        2339,
+        1648
+      ],
+      "output_dimensions": [
+        2000,
+        1409
+      ]
+    },
+    {
+      "source": "[GĐ1] gio tho phuong 04.png",
+      "output": "[GĐ1] gio tho phuong 04.webp",
+      "source_bytes": 2566833,
+      "output_bytes": 193092,
+      "original_dimensions": [
+        2317,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1427
+      ]
+    },
+    {
+      "source": "[GĐ1] gio tho phuong 05.png",
+      "output": "[GĐ1] gio tho phuong 05.webp",
+      "source_bytes": 2027668,
+      "output_bytes": 176418,
+      "original_dimensions": [
+        2334,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1416
+      ]
+    },
+    {
+      "source": "[GĐ1] gio tho phuong.png",
+      "output": "[GĐ1] gio tho phuong.webp",
+      "source_bytes": 2213128,
+      "output_bytes": 166948,
+      "original_dimensions": [
+        2339,
+        1581
+      ],
+      "output_dimensions": [
+        2000,
+        1352
+      ]
+    },
+    {
+      "source": "[GĐ1] thanh nien.png",
+      "output": "[GĐ1] thanh nien.webp",
+      "source_bytes": 1989410,
+      "output_bytes": 169642,
+      "original_dimensions": [
+        2339,
+        1609
+      ],
+      "output_dimensions": [
+        2000,
+        1376
+      ]
+    },
+    {
+      "source": "[GĐ1] thieu nhi 01.png",
+      "output": "[GĐ1] thieu nhi 01.webp",
+      "source_bytes": 3149606,
+      "output_bytes": 285160,
+      "original_dimensions": [
+        2339,
+        1559
+      ],
+      "output_dimensions": [
+        2000,
+        1333
+      ]
+    },
+    {
+      "source": "[GĐ1] thieu nhi.png",
+      "output": "[GĐ1] thieu nhi.webp",
+      "source_bytes": 3527240,
+      "output_bytes": 290526,
+      "original_dimensions": [
+        2339,
+        1570
+      ],
+      "output_dimensions": [
+        2000,
+        1342
+      ]
+    },
+    {
+      "source": "[GĐ2] MS. NGUYEN NGOC THANH 04.png",
+      "output": "[GĐ2] MS. NGUYEN NGOC THANH 04.webp",
+      "source_bytes": 2072359,
+      "output_bytes": 154496,
+      "original_dimensions": [
+        2339,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1413
+      ]
+    },
+    {
+      "source": "[GĐ2] MS. NGUYEN NGOC THANH 05.png",
+      "output": "[GĐ2] MS. NGUYEN NGOC THANH 05.webp",
+      "source_bytes": 2789898,
+      "output_bytes": 208242,
+      "original_dimensions": [
+        2339,
+        1570
+      ],
+      "output_dimensions": [
+        2000,
+        1342
+      ]
+    },
+    {
+      "source": "[GĐ2] MS. NGUYEN NGOC THANH 07.png",
+      "output": "[GĐ2] MS. NGUYEN NGOC THANH 07.webp",
+      "source_bytes": 2012124,
+      "output_bytes": 170686,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    },
+    {
+      "source": "[GĐ2] MS. NGUYEN NGOC THANH 08.png",
+      "output": "[GĐ2] MS. NGUYEN NGOC THANH 08.webp",
+      "source_bytes": 1689752,
+      "output_bytes": 134174,
+      "original_dimensions": [
+        2339,
+        1620
+      ],
+      "output_dimensions": [
+        2000,
+        1385
+      ]
+    },
+    {
+      "source": "[GĐ2] MS. NGUYEN NGOC THANH.png",
+      "output": "[GĐ2] MS. NGUYEN NGOC THANH.webp",
+      "source_bytes": 2588095,
+      "output_bytes": 201538,
+      "original_dimensions": [
+        2339,
+        1637
+      ],
+      "output_dimensions": [
+        2000,
+        1400
+      ]
+    },
+    {
+      "source": "[GĐ2] Nha nguyen 01.png",
+      "output": "[GĐ2] Nha nguyen 01.webp",
+      "source_bytes": 1783740,
+      "output_bytes": 157720,
+      "original_dimensions": [
+        2339,
+        1409
+      ],
+      "output_dimensions": [
+        2000,
+        1205
+      ]
+    },
+    {
+      "source": "[GĐ2] Nha nguyen 02.png",
+      "output": "[GĐ2] Nha nguyen 02.webp",
+      "source_bytes": 2380888,
+      "output_bytes": 210290,
+      "original_dimensions": [
+        2317,
+        1653
+      ],
+      "output_dimensions": [
+        2000,
+        1427
+      ]
+    },
+    {
+      "source": "[GĐ2] Nha nguyen.png",
+      "output": "[GĐ2] Nha nguyen.webp",
+      "source_bytes": 2249136,
+      "output_bytes": 204758,
+      "original_dimensions": [
+        2339,
+        1564
+      ],
+      "output_dimensions": [
+        2000,
+        1337
+      ]
+    }
+  ],
+  "errors": []
+}

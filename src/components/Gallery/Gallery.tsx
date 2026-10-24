@@ -1,7 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { FiChevronDown, FiChevronUp } from 'react-icons/fi'
 import Lightbox from 'yet-another-react-lightbox'
+import Counter from 'yet-another-react-lightbox/plugins/counter'
 import 'yet-another-react-lightbox/styles.css'
+import 'yet-another-react-lightbox/plugins/counter.css'
 import SectionHeading from '../SectionHeading'
 import {
   gallery,
@@ -12,9 +15,32 @@ import { viewportOnce } from '../../lib/motion'
 
 type Filter = 'all' | GalleryCategory
 
+const COLLAPSED_ROWS = 3
+
+// Mirrors the grid's breakpoints: 1 column, sm:2, lg:3.
+function useGridColumns() {
+  const getColumns = () =>
+    window.matchMedia('(min-width: 1024px)').matches
+      ? 3
+      : window.matchMedia('(min-width: 640px)').matches
+        ? 2
+        : 1
+  const [columns, setColumns] = useState(getColumns)
+
+  useEffect(() => {
+    const update = () => setColumns(getColumns())
+    window.addEventListener('resize', update)
+    return () => window.removeEventListener('resize', update)
+  }, [])
+
+  return columns
+}
+
 export default function Gallery() {
-  const [filter, setFilter] = useState<Filter>('all')
+  const [filter, setFilter] = useState<Filter>('Founding Years')
   const [index, setIndex] = useState(-1)
+  const [expanded, setExpanded] = useState(false)
+  const columns = useGridColumns()
 
   const filtered = useMemo(
     () =>
@@ -24,7 +50,16 @@ export default function Gallery() {
     [filter],
   )
 
+  const collapsedCount = columns * COLLAPSED_ROWS
+  const visible = expanded ? filtered : filtered.slice(0, collapsedCount)
+
+  // Lightbox browses the whole filtered set, not just the visible rows.
   const slides = filtered.map((img) => ({ src: img.src, alt: img.alt }))
+
+  const changeFilter = (next: Filter) => {
+    setFilter(next)
+    setExpanded(false)
+  }
 
   return (
     <section id="gallery" className="section-padding bg-white">
@@ -39,26 +74,27 @@ export default function Gallery() {
         <div className="mb-10 flex flex-wrap justify-center gap-3">
           <FilterButton
             active={filter === 'all'}
-            onClick={() => setFilter('all')}
+            onClick={() => changeFilter('all')}
             label="Tất Cả"
           />
           {galleryCategories.map((cat) => (
             <FilterButton
               key={cat.key}
               active={filter === cat.key}
-              onClick={() => setFilter(cat.key)}
+              onClick={() => changeFilter(cat.key)}
               label={cat.label}
             />
           ))}
         </div>
 
-        {/* Masonry layout via CSS columns */}
+        {/* Uniform grid so the collapsed view is exactly COLLAPSED_ROWS rows */}
         <motion.div
+          id="gallery-grid"
           layout
-          className="columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5"
+          className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3"
         >
           <AnimatePresence>
-            {filtered.map((img, i) => (
+            {visible.map((img, i) => (
               <motion.button
                 key={img.id}
                 layout
@@ -74,23 +110,34 @@ export default function Gallery() {
                   src={img.src}
                   alt={img.alt}
                   loading="lazy"
-                  className="w-full transition-transform duration-700 group-hover:scale-110"
+                  className="aspect-[4/3] w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 flex items-end bg-gradient-to-t from-navy-dark/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-                  <span className="p-4 text-left text-sm font-medium text-surface">
-                    {img.alt}
-                  </span>
-                </div>
               </motion.button>
             ))}
           </AnimatePresence>
         </motion.div>
+
+        {filtered.length > collapsedCount && (
+          <div className="mt-12 text-center">
+            <button
+              type="button"
+              className="btn-primary"
+              aria-controls="gallery-grid"
+              aria-expanded={expanded}
+              onClick={() => setExpanded((current) => !current)}
+            >
+              {expanded ? 'Thu gọn' : `Xem tất cả (${filtered.length} ảnh)`}
+              {expanded ? <FiChevronUp aria-hidden="true" /> : <FiChevronDown aria-hidden="true" />}
+            </button>
+          </div>
+        )}
 
         <Lightbox
           open={index >= 0}
           close={() => setIndex(-1)}
           index={index}
           slides={slides}
+          plugins={[Counter]}
         />
       </div>
     </section>

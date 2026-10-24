@@ -12,7 +12,12 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import type { IconType } from "react-icons";
 import SectionHeading from "../SectionHeading";
 import { fadeUp, staggerContainer, viewportOnce } from "../../lib/motion";
-import { Images } from "../../assets";
+import foundingImage from "../../assets/gallery/[GĐ1] gio tho phuong 05.webp";
+import silentImage from "../../assets/gallery/[GĐ1] gio tho phuong.webp";
+import reopeningImage from "../../assets/gallery/TĐ. ĐTT 02.webp";
+import buildingImage from "../../assets/gallery/2005 Adobe Scan 7 Aug 2026 (21).webp";
+import growthImage from "../../assets/gallery/Adobe Scan 7 Aug 2026 (20).webp";
+import continuingImage from "../../assets/gallery/1791261259883_1084442557143795285_1084442557143795285_d8892794a2f55af87195ecc4b4d63fdf.webp";
 
 interface Milestone {
   icon: IconType;
@@ -22,9 +27,6 @@ interface Milestone {
   highlights: string[];
   image: string;
 }
-
-const unsplash = (id: string) =>
-  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=800&q=80`;
 
 const milestones: Milestone[] = [
   {
@@ -37,7 +39,7 @@ const milestones: Milestone[] = [
       "12/1976: TĐ Phan Quang Vũ làm Chủ tọa Hội Thánh",
       "HTTL Sài Gòn hết lòng giúp đỡ",
     ],
-    image: Images.Intro1,
+    image: foundingImage,
   },
   {
     icon: GiCandleLight,
@@ -49,7 +51,7 @@ const milestones: Milestone[] = [
       "7/1978: Ms Nguyễn Hoàng Oanh chủ tọa",
       "4/1982: Nhóm học Kinh Thánh lúc 3–4 giờ khuya",
     ],
-    image: Images.Intro1,
+    image: silentImage,
   },
   {
     icon: GiOakLeaf,
@@ -61,7 +63,7 @@ const milestones: Milestone[] = [
       "12/1988: Nhóm tại nhà Ông Bà Nguyễn Thành Tâm",
       "1989: TĐ Đỗ Trung Tín phụ trách linh vụ",
     ],
-    image: unsplash("photo-1511632765486-a01980e01a18"),
+    image: reopeningImage,
   },
   {
     icon: GiChurch,
@@ -73,32 +75,36 @@ const milestones: Milestone[] = [
       "24/8/2004: Đặt viên đá đầu tiên",
       "4/2008: Cung hiến Đền Thờ",
     ],
-    image: unsplash("photo-1492684223066-81342ee5ff30"),
+    image: buildingImage,
   },
   {
     icon: GiVillage,
     era: "Thời Kỳ Mở Mang",
     years: "2008 – 2016",
     description:
-      "Hội Thánh tự lập, mở các điểm nhóm Tân Hưng, Lai Uyên và bắt đầu khám chữa bệnh miễn phí cho cộng đồng.",
+      "Hội Thánh tự lập, mở các điểm nhóm Tân Hưng, Lai Uyên, đồng hành cùng anh em người Tà Mun tại Sóc 5 và bắt đầu khám chữa bệnh miễn phí cho cộng đồng.",
     highlights: [
       "7/2010: Được công nhận Chi Hội Tự Lập",
+      "2010: Bắt đầu giúp đỡ anh em Tà Mun tại Sóc 5",
       "26/4/2012: TĐ Bùi Minh Quyền làm Quản nhiệm",
       "26/4/2016: Khánh thành Nhà Nguyện Lai Uyên",
     ],
-    image: unsplash("photo-1529070538774-1843cb3265df"),
+    image: growthImage,
   },
   {
     icon: GiDove,
     era: "Thời Kỳ Tiếp Nối",
     years: "2016 – 2026",
     description:
-      "Hội Thánh tiếp tục gây dựng, phục vụ cộng đồng và kỷ niệm 50 năm ân điển, hướng về Đại Mạng Lệnh.",
+      "Vượt qua mùa dịch Covid-19 bằng những giờ nhóm trực tuyến và tình tương trợ, Hội Thánh tiếp tục phục vụ cộng đồng qua khám mắt, tặng kính, Thánh Kinh Hè và truyền giảng Giáng Sinh, hướng về Đại Mạng Lệnh.",
     highlights: [
+      "2017: Nhóm tại Bàu Bàng; Giáng Sinh hằng năm tại Sóc 5",
+      "3/2021: Ms Bùi Minh Quyền nhận nhiệm sở HTTL Nhơn Phú",
+      "7/2021: Nhóm trực tuyến, Ms Nguyễn Văn To tạm kiêm nhiệm",
       "18/5/2022: Ms Nguyễn Đức làm Quản nhiệm",
       "2026: Lễ Kỷ Niệm 50 Năm Thành Lập",
     ],
-    image: unsplash("photo-1511988617509-a57c8a288659"),
+    image: continuingImage,
   },
 ];
 

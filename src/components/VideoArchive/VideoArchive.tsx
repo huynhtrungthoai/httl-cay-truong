@@ -7,9 +7,8 @@ import SectionHeading from '../SectionHeading'
 import { videos } from '../../data/videos'
 
 const categoryLabel: Record<string, string> = {
-  Documentary: 'Phim Tài Liệu',
-  Interview: 'Phỏng Vấn',
-  Anniversary: 'Lễ Kỷ Niệm',
+  SummerBible: 'Thánh Kinh Hè',
+  Christmas: 'Giáng Sinh',
 }
 
 export default function VideoArchive() {

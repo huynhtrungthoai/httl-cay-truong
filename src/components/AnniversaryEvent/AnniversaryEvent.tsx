@@ -5,6 +5,7 @@ import program from '../../data/anniversaryProgram.json'
 import { celebration } from '../../data/event'
 import SectionHeading from '../SectionHeading'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
+import backgroundImage from '../../assets/background.jpg'
 
 const EVENT_DATE = new Date(program.startsAt)
 
@@ -49,8 +50,8 @@ export default function AnniversaryEvent() {
       {/* Banner background */}
       <div className="absolute inset-0 -z-20">
         <img
-          src="https://images.unsplash.com/photo-1530023367847-a683933f4172?auto=format&fit=crop&w=2000&q=80"
-          alt="Lễ kỷ niệm"
+          src={backgroundImage}
+          alt="Đền thờ Chi Hội Tin Lành Cây Trường"
           className="h-full w-full object-cover"
         />
       </div>

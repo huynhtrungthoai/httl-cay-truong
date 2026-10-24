@@ -11,7 +11,7 @@ const navLinks = [
   { id: "gallery", label: "Hình Ảnh" },
   { id: "videos", label: "Video" },
   { id: "celebration", label: "Lễ Kỷ Niệm" },
-  { id: "gratitude", label: "Tri Ân" },
+  // { id: "gratitude", label: "Tri Ân" }, // tạm ẩn
 ];
 
 export default function Navbar() {

@@ -27,7 +27,7 @@ export default function Leaders() {
               className="group relative overflow-hidden rounded-2xl bg-white shadow-elegant"
             >
               <div className="relative h-72 overflow-hidden">
-                {leader.portrait !== "N/A" ? (
+                {leader.portrait && leader.portrait !== "N/A" ? (
                   <img
                     src={leader.portrait}
                     alt={`Hình ảnh ${leader.name}`}
@@ -36,8 +36,20 @@ export default function Leaders() {
                     className="h-full w-full object-cover object-top transition-transform duration-700 group-hover:scale-110"
                   />
                 ) : (
-                  <div className="flex h-full w-full items-center justify-center bg-navy/10 text-muted">
-                    Chưa có hình
+                  <div
+                    role="img"
+                    aria-label={`Chưa có hình ${leader.name}`}
+                    className="flex h-full w-full items-start justify-center bg-gradient-to-b from-navy/20 to-navy/40"
+                  >
+                    {/* Generic avatar silhouette for leaders without a portrait */}
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="mt-8 h-44 w-44 text-surface/70"
+                    >
+                      <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2c-4.42 0-8 2.69-8 6v2h16v-2c0-3.31-3.58-6-8-6Z" />
+                    </svg>
                   </div>
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-dark/90 via-navy-dark/20 to-transparent" />
@@ -52,12 +64,9 @@ export default function Leaders() {
                 </div>
               </div>
 
-              {/* Bio slides up on hover (desktop); always visible spacing below on mobile */}
-              <div className="max-h-0 overflow-hidden bg-white transition-all duration-500 group-hover:max-h-60">
-                <p className="p-5 text-sm leading-relaxed text-muted">
-                  {leader.bio}
-                </p>
-              </div>
+              <p className="p-5 text-sm leading-relaxed text-muted">
+                {leader.bio}
+              </p>
             </motion.article>
           ))}
         </motion.div>
