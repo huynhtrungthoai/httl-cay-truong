@@ -82,7 +82,7 @@ export default function ComingSoon({ remainingMs }: ComingSoonProps) {
               className="mt-5 inline-flex w-fit items-center gap-2 text-base font-semibold text-coral sm:text-lg"
             >
               <FiCalendar aria-hidden="true" />
-              17 tháng 11 năm 2026
+              {celebration.dateLabel}
             </motion.p>
 
             <motion.blockquote

@@ -7,7 +7,7 @@ import SectionHeading from '../SectionHeading'
 import { fadeUp, staggerContainer, viewportOnce } from '../../lib/motion'
 import backgroundImage from '../../assets/background.jpg'
 
-const EVENT_DATE = new Date(program.startsAt)
+const EVENT_DATE = new Date(celebration.startsAt)
 
 interface TimeLeft {
   days: number;
