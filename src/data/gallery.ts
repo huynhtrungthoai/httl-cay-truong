@@ -24,10 +24,46 @@ export const galleryCategories: { key: GalleryCategory; label: string }[] = [
 
 export const gallery: GalleryImage[] = [
   {
-    id: 1,
-    src: 'https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&w=900&q=80',
-    alt: 'Ngôi nhà nguyện đầu tiên',
+    id: 14,
+    src: '/images/gallery/buoi-giang-nha-nguyen-cu.webp',
+    alt: 'Buổi giảng tại nơi nhóm của Hội Thánh Cây Trường',
     category: 'Founding Years',
+  },
+  {
+    id: 15,
+    src: '/images/gallery/tinh-huu-trong-buoi-nhom.webp',
+    alt: 'Tín hữu tham dự một buổi nhóm tại nhà nguyện',
+    category: 'Founding Years',
+  },
+  {
+    id: 16,
+    src: '/images/gallery/buoi-nhom-tai-nha-nguyen.webp',
+    alt: 'Quang cảnh buổi nhóm tại nhà nguyện',
+    category: 'Founding Years',
+  },
+  {
+    id: 17,
+    src: '/images/gallery/buc-giang-nha-nguyen-cu.webp',
+    alt: 'Bục giảng trong nhà nguyện trước đây',
+    category: 'Founding Years',
+  },
+  {
+    id: 18,
+    src: '/images/gallery/cong-dong-trong-buoi-nhom.webp',
+    alt: 'Tín hữu trong một buổi nhóm của Hội Thánh',
+    category: 'Founding Years',
+  },
+  {
+    id: 19,
+    src: '/images/gallery/anh-tap-the-hoi-thanh.webp',
+    alt: 'Ảnh tập thể Hội Thánh trong dịp chúc mừng năm mới',
+    category: 'Founding Years',
+  },
+  {
+    id: 13,
+    src: '/images/gallery/hoi-thanh-sinh-hoat.webp',
+    alt: 'Các thành viên Hội Thánh chụp ảnh lưu niệm trong một buổi sinh hoạt',
+    category: 'Community',
   },
   {
     id: 2,
@@ -64,12 +100,6 @@ export const gallery: GalleryImage[] = [
     src: 'https://images.unsplash.com/photo-1545987796-200677ee1011?auto=format&fit=crop&w=900&q=80',
     alt: 'Ban hát ngợi khen',
     category: 'Worship',
-  },
-  {
-    id: 8,
-    src: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80',
-    alt: 'Buổi nhóm cầu nguyện ban đầu',
-    category: 'Founding Years',
   },
   {
     id: 9,
