@@ -166,8 +166,6 @@ export default function ComingSoon({ remainingMs }: ComingSoonProps) {
           </address>
           <a
             href={celebration.location}
-            target="_blank"
-            rel="noopener noreferrer"
             className="btn-primary w-fit"
           >
             <FiMapPin size={18} aria-hidden="true" />
