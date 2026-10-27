@@ -153,6 +153,8 @@ export default function ComingSoon({ remainingMs }: ComingSoonProps) {
               <br />
               {celebration.address}
               <br />
+              <span className="text-sm text-surface/70">Mã vị trí Google Maps: {celebration.mapCode}</span>
+              <br />
               <a
                 href={celebration.phoneHref}
                 className="mt-1 inline-flex items-center gap-2 font-semibold text-surface hover:text-coral"
