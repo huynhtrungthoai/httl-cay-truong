@@ -1,9 +1,14 @@
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { FiChevronDown } from "react-icons/fi";
 import SectionHeading from "../SectionHeading";
 import leaders from "../../data/pastors.json";
-import { fadeUp, staggerContainer, viewportOnce } from "../../lib/motion";
+
+const PAGE_SIZE = 3;
 
 export default function Leaders() {
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const visibleLeaders = leaders.slice(0, visibleCount);
+
   return (
     <section id="leaders" className="section-padding bg-surface">
       <div className="container-narrow">
@@ -13,17 +18,10 @@ export default function Leaders() {
           subtitle="Những tấm lòng đã tận hiến gây dựng Hội Thánh qua các thế hệ"
         />
 
-        <motion.div
-          variants={staggerContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={viewportOnce}
-          className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4"
-        >
-          {leaders.map((leader) => (
-            <motion.article
+        <div id="leader-list" className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+          {visibleLeaders.map((leader) => (
+            <article
               key={leader.id}
-              variants={fadeUp}
               className="group relative overflow-hidden rounded-2xl bg-white shadow-elegant"
             >
               <div className="relative h-72 overflow-hidden">
@@ -67,9 +65,23 @@ export default function Leaders() {
               <p className="p-5 text-sm leading-relaxed text-muted">
                 {leader.bio}
               </p>
-            </motion.article>
+            </article>
           ))}
-        </motion.div>
+        </div>
+
+        {visibleCount < leaders.length && (
+          <div className="mt-10 text-center">
+            <button
+              type="button"
+              className="btn-primary"
+              aria-controls="leader-list"
+              onClick={() => setVisibleCount((count) => Math.min(count + PAGE_SIZE, leaders.length))}
+            >
+              Xem thêm
+              <FiChevronDown aria-hidden="true" />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );
